@@ -1,0 +1,133 @@
+@import '../public/scss/colors';
+@import '../public/scss/animations';
+
+.section1 {
+  background-color: $color2;
+  height: 92vh;
+
+  .img {
+    height: auto;
+    width: 100vw;
+    min-height: 50vh;
+    max-height: 65vh;
+    object-fit: cover;
+
+    @media (min-width: 768px) {
+      & {
+        height: 92vh;
+        width: auto;
+        max-height: none;
+      }
+    }
+  }
+
+  .description {
+    @extend .fadeIn;
+  }
+}
+
+.arrowDown {
+  color: $color4;
+
+  @keyframes arrowDown {
+    0% {}
+
+    100% {
+      transform: translateY(20px);
+    }
+  }
+
+  & {
+    animation: arrowDown 1s;
+    animation-iteration-count: infinite;
+  }
+
+  & * {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+.img,
+.description {
+  animation: fadeIn 1s;
+  color: $color4;
+}
+
+// Part of the next code can be found on https://scroll-driven-animations.style/
+@supports(animation-timeline: view()) {
+  @keyframes move {
+    to {
+      // Move horizontally so that right edge is aligned against the viewport
+      transform: translateX(calc(-100% + 100vw));
+      left: 0px;
+    }
+  }
+
+  .section2 {
+    background-color: $color4;
+
+    // Stretch it out, so that we create room for the horizontal scroll animation
+    height: 500vh;
+    overflow: visible; // To make position sticky work
+    view-timeline-name: --section-pin-tl;
+    view-timeline-axis: block;
+
+    h2 {
+      color: $color1;
+      min-width: 200px;
+      max-width: 30vw;
+    }
+
+    .img {
+      width: auto;
+      height: 80vh;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .pinWrapSticky {
+    // Stick to Top
+    height: 100vh;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .pinWrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0;
+    height: 100vh;
+    width: 250vmax;
+    // Hook animation
+    will-change: transform;
+    animation: linear move forwards;
+    // Link animation to view-timeline
+    animation-timeline: --section-pin-tl;
+    animation-range: contain 0% contain 100%;
+
+    &>* {
+      min-width: 60vmax;
+      padding: 0 5vmax;
+    }
+  }
+}
+
+.section3 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('../public/img/index/index5.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.section3__div {
+  background-color: rgb(255, 255, 255, 0.5);
+  height: 100%;
+}
