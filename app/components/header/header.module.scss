@@ -1,0 +1,14 @@
+@import '../../../public/scss/colors';
+
+.header {
+  background-color: $color5;
+
+  &,
+  &>* {
+    min-height: 8vh;
+  }
+}
+
+.navbarBrand {
+  font-size: 40px !important;
+}

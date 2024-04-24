@@ -1,0 +1,40 @@
+@import '../../public/scss/colors';
+
+.main {
+  min-height: 79vh;
+  background-image: url('../../public/img/profile/profile.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.div {
+  backdrop-filter: blur(5px);
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+  & form {
+    max-width: 250px;
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    & {
+      animation: fadeIn 1s;
+    }
+
+    & button {
+      width: 100%;
+    }
+  }
+}

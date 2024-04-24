@@ -1,0 +1,37 @@
+.custom-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .pDesign{
+    font-family: system-ui;
+    font-weight: 400;
+}
+  
+  .left-button {
+    left: 1px;
+  }
+  
+  .right-button {
+    right: 1px;
+  }
+  .tab-content {
+    background-color: #F8F9FA !important;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Imgset{
+  width: 100%;
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "id": "standard",
+        "images": [
+            {
+                "image1": "/img/suites/standard/1.jpeg"
+            },
+            {
+                "image2": "/img/suites/standard/2.jpeg"
+            },
+            {
+                "image3": "/img/suites/standard/3.jpeg"
+            },
+            {
+                "image4": "/img/suites/standard/4.jpeg"
+            }
+        ],
+        "name": "Standard Suite",
+        "price": 150,
+        "features": [
+            "Queen bed",
+            "Private bathroom",
+            "Flat-screen TV",
+            "Free Wi-Fi"
+        ]
+    },
+    {
+        "id": "deluxe",
+        "images": [
+            {
+                "image1": "/img/suites/deluxe/1.jpeg"
+            },
+            {
+                "image2": "/img/suites/deluxe/2.jpeg"
+            },
+            {
+                "image3": "/img/suites/deluxe/3.jpeg"
+            },
+            {
+                "image4": "/img/suites/deluxe/4.jpeg"
+            }
+        ],
+        "name": "Deluxe Suite",
+        "price": 250,
+        "features": [
+            "King bed",
+            "Private balcony",
+            "Mini-bar",
+            "Jacuzzi"
+        ]
+    },
+    {
+        "id": "executive",
+        "images": [
+            {
+                "image1": "/img/suites/executive/1.jpeg"
+            },
+            {
+                "image2": "/img/suites/executive/2.jpeg"
+            },
+            {
+                "image3": "/img/suites/executive/3.jpeg"
+            },
+            {
+                "image4": "/img/suites/executive/4.jpeg"
+            }
+        ],
+        "name": "Executive Suite",
+        "price": 350,
+        "features": [
+            "King bed",
+            "Spacious living area",
+            "Kitchenette",
+            "Work desk"
+        ]
+    },
+    {
+        "id": "penthouse",
+        "images": [
+            {
+                "image1": "/img/suites/penthouse/1.jpeg"
+            },
+            {
+                "image2": "/img/suites/penthouse/2.jpeg"
+            },
+            {
+                "image3": "/img/suites/penthouse/3.jpeg"
+            },
+            {
+                "image4": "/img/suites/penthouse/4.jpeg"
+            }
+        ],
+        "name": "Penthouse Suite",
+        "price": 500,
+        "features": [
+            "Master bedroom",
+            "Private terrace",
+            "Panoramic views",
+            "Entertainment system"
+        ]
+    }
+]

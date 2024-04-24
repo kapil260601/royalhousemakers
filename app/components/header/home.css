@@ -1,0 +1,188 @@
+/* / front Page */
+.VideoHeader{
+  font-size: 25px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.VideoPara{
+  font-size: 12px;
+}
+
+.VideoContent {
+ 
+}
+
+.frontHeader {
+  font-family: "Noto Serif Devanagari", serif;
+  color: #fff !important;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+}
+
+.frist-grey {
+  background: #54545461;
+  height: 137px;
+  
+}
+.background_color {
+  padding: 1% 19% 0px 19%;
+}
+.background_tab_padding {
+  padding: 0% 13.4% 0% 12%;
+}
+.mainImage {
+  height: 650px;
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.builder .MuiTabs-flexContainer {
+  overflow: scroll !important;
+}
+.builder .MuiTabs-flexContainer::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.builder .MuiTabs-flexContainer {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.builder .Mui-selected {
+  color: white !important;
+
+  text-align: center;
+  /* font-family: PT Sans; */
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  background: #3bad4b !important;
+  width: 131px !important;
+  height: 99px !important;
+  flex-shrink: 0;
+  box-shadow: 0px 3px 3px 2px #979797;
+  padding: 0px;
+  content: "";
+  background-position: bottom;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  transition: 1s all ease;
+}
+.builder .Mui-selected {
+  
+}
+
+.builder .MuiButtonBase-root {
+  color: black;
+  text-align: center;
+  font-family: "-apple-system";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  
+  width: 131px !important;
+  height: 99px !important;
+  flex-shrink: 0;
+  padding: 0px;
+
+}
+.builder .MuiButtonBase-root:hover {
+  
+}
+.builder .MuiButtonBase-root {
+  min-height: 30px !important;
+}
+.builder .MuiTabs-indicator {
+  width: 0px !important;
+  height: 0px !important;
+  bottom: 0px !important;
+}
+.tab_icon {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+.tab_body_2 .MuiTypography-root {
+  padding: 0% 7%;
+}
+.input-Width {
+}
+.form-bg {
+  background: #12203c8c !important;
+  width: 97%;
+ 
+}
+.btn_Size {
+  padding: 5% 1% 5% 1% !important;
+}
+.main_Form {
+  background: #12203c8c;
+  padding: 24px;
+  
+}
+.main_Form_card {
+  background: #12203c8c;
+  padding: 2%;
+  overflow: scroll;
+}
+.main_Form_card::-webkit-scrollbar {
+  display: none;
+}
+
+
+.main_Form_card {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+.font-weight-bolder {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.mini_card_header {
+  background: white;
+  box-shadow: 0px 0px 14px 3px rgba(0, 0, 0, 0.25);
+  min-height: 10px !important;
+  padding: 2% 2%;
+}
+.underline-text-header {
+  text-decoration: underline;
+}
+
+
+@media (min-width: 350px) and (max-width: 767px) {
+  /* CSS styles for small screens (e.g., mobile phones) */
+  .background_color {
+    padding: 1% 5% 0px 5%;
+  }
+  .background_tab_padding {
+    padding: 0% 2% 0% 2%;
+  }
+  .gapping {
+    gap: 2px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* CSS styles for medium screens (e.g., tablets) */
+  .background_color {
+    padding: 1% 8% 0px 8%;
+  }
+  .background_tab_padding {
+    padding: 0% 2% 0% 2%;
+  }
+
+  .gapping {
+    gap: 1px;
+  }
+}
