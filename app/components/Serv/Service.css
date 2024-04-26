@@ -125,14 +125,18 @@
     order:10;
 }
 #k{
-    order:11;
+    order:12;
 }
 #l{
-    order:12;
+    order:11;
 }#m{
-    order:13;
-}#n{
     order:14;
+}#n{
+    order:13;
+}#o{
+    order:16;
+}#p{
+    order:15;
 }
 .category-name {
     color: #010101;
@@ -306,7 +310,7 @@
 .carousel-control-next-icon:hover {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 767px)
 {
     #a{
         order:1;
@@ -334,14 +338,23 @@
         order:10;
     }
     #k{
-        order:12;
+        order:11;
     }
     #l{
-        order:11;
+        order:12;
     }#m{
-        order:13;
-    }#n{
         order:14;
+    }#n{
+        order:13;
+    }
+    #o{
+        order:15;
+    }#p{
+        order:16;
+    }
+    .CoverImg{
+        height:418px;
+        width: 380px !important;
     }
 }
 

@@ -22,7 +22,7 @@ function Service() {
   const images3 = ['./Structure/J.png', './Structure/B.png', './Structure/C.png', './Structure/D.png', './Structure/E.png', './Structure/F.png', './Structure/G.png', './Structure/H.png', './Structure/I.png', './Structure/A.png', './Structure/K.png'];
 
   { /*  Interior Design */ }
-  const images4 = ['./Interior/A.jpg', './Interior/B.jpg', './Interior/C.jpg', './Interior/D.jpg', './Interior/E.jpg', './Interior/F.jpg', './Interior/G.jpg', './Interior/H.jpg', './Interior/I.jpg', './Interior/J.jpg', './Interior/K.jpg', './Interior/L.jpg', './Interior/M.jpg', './Interior/N.jpg', './Interior/P.jpg', './Interior/Q.jpg', './Interior/R.jpg', './Interior/S.jpg', './Interior/T.jpg', './Interior/U.jpg', './Interior/W.jpg', './Interior/X.jpg'];
+  const images4 = ['./Interior/A.jpg', './Interior/B.jpg', './Interior/C.jpg', './Interior/D.jpg', './Interior/E.jpg', './Interior/F.jpg'];
 
   { /*  Landscape */ }
   const images5 = ['./Landscape/A.jpg', './Landscape/B.jpg', './Landscape/C.jpg', './Landscape/D.jpg', './Landscape/E.jpg', './Landscape/F.jpg'];
@@ -163,14 +163,7 @@ function Service() {
           </div>
           <div id='d' className="col-lg-6 d-flex justify-content-center" >
             <div id="demo2" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-              {/* <div className="carousel-indicators">
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="1" ></button>
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="2" ></button>
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="3" ></button>
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="4" ></button>
-          <button type="button" data-bs-target="#demo2" data-bs-slide-to="5" ></button>
-        </div> */}
+             
 
               <div className="carousel-inner primary">
                 {images1.map((image, index) => (
@@ -248,8 +241,8 @@ function Service() {
             </div>
           </div>
           { /*  STRUCTURE DRAWING */}
-          <div id='g' className='col-lg-6'>
-            <div className='p_1 img_set mt-3'>
+          <div id='g' className='col-lg-6 mt-3'>
+            <div className='p_1 img_set '>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <p className='text-black pDesign' style={{ margin: "0px" }}>
@@ -322,7 +315,7 @@ function Service() {
               </div>
             </div>
           </div>
-          <div id='h' className="col-lg-6 d-flex justify-content-center mt-4" >
+          <div id='h' className="col-lg-6 d-flex justify-content-center mt-5" >
             <div id="demo4" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
 
@@ -344,13 +337,13 @@ function Service() {
           </div>
           { /*  Interior Design */}
 
-          {/* <div className="col-lg-6 d-flex justify-content-center" >
+           <div id='i' className="col-lg-6 d-flex justify-content-center" >
             <div id="demo1" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
                 {images4.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border" />
+                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border-nav" />
                   </div>
                 ))}
               </div>
@@ -363,12 +356,12 @@ function Service() {
               </button>
             </div>
           </div>
-          <div className='col-lg-6'>
+          <div id="j" className='col-lg-6'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' >
-                    <h5 className='Header-1-1-1 pDesign'>INTERIOR Design:-</h5><br />
+                  <p className='text-black pDesign' style={{ margin: "0px" }}>
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>INTERIOR Design:-</h5><br />
                     
                   </p>
                   <p className='text-black pDesign'>
@@ -382,11 +375,11 @@ function Service() {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div> 
 
           {/* Video You TUbe */}
           
-          <div id='i' className="col-lg-6 mt-3 d-flex justify-content-center border-nav p-1" >
+          <div id='k' className="col-lg-6 mt-3 d-flex justify-content-center border-nav p-1" >
             <iframe 
               title="You Tube Video"
               src="./Slider.mp4"
@@ -400,7 +393,7 @@ function Service() {
             ></iframe>
           
           </div>
-          <div id='j' className='col-lg-6 p-2'>
+          <div id='l' className='col-lg-6 p-2'>
             <div className='p_1 img_set'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -441,7 +434,7 @@ function Service() {
 
           { /*  3D FLOOR PLAN */}
           
-          <div id='k' className='col-lg-6   py-4'>
+          <div id='m' className='col-lg-6 mt-3 py-4'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -475,12 +468,11 @@ function Service() {
                   <p className='text-black pDesign' style={{ margin: "2px" }}>
                     <strong>*</strong>  Suggestions for Interior Design.
                   </p>
-
                 </div>
               </div>
             </div>
           </div>
-          <div id='l' className="col-lg-6 d-flex justify-content-center mt-5" >
+          <div id='n' className="col-lg-6 d-flex justify-content-center mt-5" >
             <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
@@ -500,9 +492,7 @@ function Service() {
             </div>
           </div>
           { /*  Landscape */}
-
-          
-          <div id='m' className="col-lg-6 d-flex justify-content-center mt-5" >
+          <div id='o' className="col-lg-6 d-flex justify-content-center mt-5" >
             <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
 
@@ -522,7 +512,7 @@ function Service() {
               </button>
             </div>
           </div>
-          <div id='n' className='col-lg-6  py-4'>
+          <div id='p' className='col-lg-6  py-4'>
             <div className='p_1 img_set'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -534,6 +524,7 @@ function Service() {
                   </p>
 
                   <strong className='Header-1-1-1 pDesign'>Here's are detailed of Lnadscape:</strong><br />
+                  <div className='row'>
                   <div className='col-sm-6'>
                     <p className='text-black pDesign' style={{ margin: "2px" }}>
                       <strong>*</strong>  Hardscape.
@@ -577,6 +568,7 @@ function Service() {
                       <strong>*</strong> Climate and Weather.
                     </p>
 
+                  </div>
                   </div>
                 </div>
               </div>

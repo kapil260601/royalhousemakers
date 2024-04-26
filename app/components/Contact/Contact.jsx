@@ -23,13 +23,13 @@ function Contact() {
     <div className='row body__2 bg-opacity-100'>
       <section className='col-12' id="section-wrapper">
         <div className="box-wrapper px-1">
-            <div className="info-wrap">
+            <div className=" info-wrap">
                 <h2 className="info-title">Contact Information</h2>
                 <h3 className="info-sub-title">Fill up the form and our Team will<br/> get back to you within 24 hours</h3>
                 <ul className="info-details">
                     <li>
                     <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
-                        <span className='ms-1' style={{fontWeight:"700"}}>Mobile Number:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919009700155</a>
+                        <span className='ms-1' style={{fontWeight:"700"}}>Mo. Number:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919009700155</a>
                     </li>
                     <li >
                     <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
