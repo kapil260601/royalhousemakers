@@ -83,7 +83,7 @@ function Service() {
                     <h5 class='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>FLOOR PLAN</h5><br />
                   </p>
                   <p className='text-black pDesign' >
-                    <strong>Floor Plan</strong>: A floorplan is a detailed visual representation of a building's layout, typically viewed above-it provides essental information about the arrangment of rooms, walls, Doors, windows and other architectual features.
+                    <strong>Floor Plan</strong>{`: A floorplan is a detailed visual representation of a building's layout, typically viewed above-it provides essental information about the arrangment of rooms, walls, Doors, windows and other architectual features.` }
                   </p>
 
                   <strong className='Header-1-1-1 pDesign'>Here are the key components of a Floor Plan:</strong><br />
@@ -129,10 +129,10 @@ function Service() {
 
                   </p>
                   <p className='text-black pDesign' >
-                    <strong>Elevation</strong>: Let's delve into intricacies of Elevation Design in architecture. An Elevation is a two-dimensional representation of one side of a building, typically viewed front side, or rear. It provides essential information about the building exterior apperance,including proportions, materials and architectural features.
+                    <strong>Elevation</strong>{`: Let's delve into intricacies of Elevation Design in architecture. An Elevation is a two-dimensional representation of one side of a building, typically viewed front side, or rear. It provides essential information about the building exterior apperance,including proportions, materials and architectural features.`}
                   </p>
 
-                  <strong className='Header-1-1-1 pDesign'>Here's are detailed of 3D elevation:</strong><br />
+                  <strong className='Header-1-1-1 pDesign'>{`Here's are detailed of 3D elevation:`}</strong><br />
                   <p className='text-black pDesign' style={{ margin: "2px" }}>
                     <strong>*</strong>  Vertical Proportions.
                   </p>
@@ -210,10 +210,10 @@ function Service() {
 
                   </p>
                   <p className='text-black pDesign' >
-                    <strong>2D Elevation</strong>: 2D Elevation Design in Architecture in Elevation  is a cancial visual representation that provides in sights into a building's exterior appearance.
+                    <strong>2D Elevation</strong>{`: 2D Elevation Design in Architecture in Elevation  is a cancial visual representation that provides in sights into a building's exterior appearance.`}
                   </p>
 
-                  <strong className='Header-1-1-1 pDesign'>Here's comprehensive guide to Understanding and explaining 20 Elevation Design:</strong><br />
+                  <strong className='Header-1-1-1 pDesign'>{`Here's comprehensive guide to Understanding and explaining 20 Elevation Design:`}</strong><br />
                   <p className='text-black pDesign' style={{ margin: "2px" }}>
                     <strong>*</strong>  Detailed facade Visualization.
                   </p>
@@ -249,12 +249,12 @@ function Service() {
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}} >STRUCTURE DRAWING</h5><br />
                   </p>
                   <p className='text-black pDesign'>
-                    <strong>Drawing</strong>:Structure drawing is a funcdamental component of the architectural design process, structure Drawings are critical components of Construction documents, detailing the engineeered aspects of a bulidings Projects.
+                    <strong>Drawing</strong>{`:Structure drawing is a funcdamental component of the architectural design process, structure Drawings are critical components of Construction documents, detailing the engineeered aspects of a building's Projects.`}
                   </p>
                   <a className="Cursor" href="#"><span style={{color:"black",fontWeight:"700"}}>Purpose and Significance : </span></a><br></br>
-                  <a className="Cursor" href="#"><span style={{color:"#505050",fontWeight:"600"}}>Representation : </span></a> <a className="Cursor" href="#"><strong style={{color:"black"}}>Structure drawings visually communicate how a building's structural components come together, they details the arrangements, sizes and connection of critical elements.</strong></a><br></br><br></br>
-                  <a className="Cursor" href="#"><span style={{color:"#505050",fontWeight:"600"}}>Technical documentation : </span></a><a className="Cursor" href="#"><strong style={{color:"black"}}>These drawings provide essential information for construction ensuring the buildings stability, safety and assurance to engineering principles.</strong></a><br></br><br></br>
-                  <a className="Cursor" href="#"><span style={{color:"black",fontWeight:"600"}}>Here's are detailed of Structure Drawing: </span></a>
+                  <a className="Cursor" href="#"><span style={{color:"#505050",fontWeight:"600"}}>Representation : </span></a> <a className="Cursor" href="#"><strong style={{color:"black"}}>{`Structure drawings visually communicate how a building's structural components come together, they details the arrangements, sizes and connection of critical elements.`}</strong></a><br></br><br></br>
+                  <a className="Cursor" href="#"><span style={{color:"#505050",fontWeight:"600"}}>Technical documentation : </span></a><a className="Cursor" href="#"><strong style={{color:"black"}}>{`These drawings provide essential information for construction ensuring the building's stability, safety and assurance to engineering principles.`}</strong></a><br></br><br></br>
+                  <a className="Cursor" href="#"><span style={{color:"black",fontWeight:"600"}}>{`Here's are detailed of Structure Drawing:`} </span></a>
                   <div className='row'>
                     <div className='col-sm-4'>
                       <p className='text-black pDesign' style={{ margin: "2px" }}>
@@ -369,7 +369,7 @@ function Service() {
                   </p>
 
                   <p className='text-black pDesign text-start' style={{ margin: "2px" }}>
-                    <strong></strong> Designers consider both the practical and aesthetic aspects of a home , aiming to optimize  the use of use while reflecting the homeowner's style and preferences. The goal is to create style and an interior that not only looks appealing but also meets the needs and enhances the quality of life for those living in the house..
+                    <strong></strong> {`Designers consider both the practical and aesthetic aspects of a home , aiming to optimize  the use of use while reflecting the homeowner's style and preferences. The goal is to create style and an interior that not only looks appealing but also meets the needs and enhances the quality of life for those living in the house..`}
                   </p>
 
                 </div>
@@ -523,7 +523,7 @@ function Service() {
                     <strong>Landscape</strong>: A landscape encompasses the visible features of the land, including its landforms and how they integrate with natural or human-made elements.
                   </p>
 
-                  <strong className='Header-1-1-1 pDesign'>Here's are detailed of Lnadscape:</strong><br />
+                  <strong className='Header-1-1-1 pDesign'>{`Here's are detailed of Lnadscape:`}</strong><br />
                   <div className='row'>
                   <div className='col-sm-6'>
                     <p className='text-black pDesign' style={{ margin: "2px" }}>

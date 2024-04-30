@@ -95,17 +95,17 @@ export default function ResponsiveAppBar() {
             >
               <Box sx={{ display: 'flex', justifyContent: 'flex-end', p: 1 }}>
                 <IconButton>
-                  <h1>X</h1>
+                  <h3 style={{fontWeight:"700"}}>Close X</h3>
                 </IconButton>
               </Box>
               {pages.map((page) => (
                 page === "WhatsApp" ? (
-                  <Button key={page} sx={{ mx: 1, color: 'black' }} href='https://wa.link/pfwjp2'>
+                  <Button key={page} sx={{ mx: 1, color: 'black'}} href='https://wa.link/pfwjp2'>
                     {page}
                   </Button>
                 ) : (
                   <Link key={page} href={'/' + page.toLowerCase()}>
-                    <Button sx={{ display: "flex", mx: 1, justifyContent: 'flex-start', color: 'inherit' }}>
+                    <Button sx={{ display: "flex", mx: 1, justifyContent: 'flex-start', color: 'black' }}>
                       {page}
                     </Button>
                   </Link>
