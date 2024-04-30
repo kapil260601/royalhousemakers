@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Service.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 // import { Link } from 'react-router-dom';
 
@@ -79,9 +79,9 @@ function Service() {
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' style={{ color: "black", fontWeight:"900" }}>
+                  <span className='text-black pDesign' style={{ color: "black", fontWeight:"900" }}>
                     <h5 class='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>FLOOR PLAN</h5><br />
-                  </p>
+                  </span>
                   <p className='text-black pDesign' >
                     <strong>Floor Plan</strong>{`: A floorplan is a detailed visual representation of a building's layout, typically viewed above-it provides essental information about the arrangment of rooms, walls, Doors, windows and other architectual features.` }
                   </p>
@@ -124,10 +124,10 @@ function Service() {
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' >
+                  <span className='text-black pDesign' >
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>3D ELEVATION DESIGN</h5><br />
 
-                  </p>
+                  </span>
                   <p className='text-black pDesign' >
                     <strong>Elevation</strong>{`: Let's delve into intricacies of Elevation Design in architecture. An Elevation is a two-dimensional representation of one side of a building, typically viewed front side, or rear. It provides essential information about the building exterior apperance,including proportions, materials and architectural features.`}
                   </p>
@@ -205,10 +205,10 @@ function Service() {
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' >
+                  <span className='text-black pDesign' >
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>2D Elevation</h5><br />
 
-                  </p>
+                  </span>
                   <p className='text-black pDesign' >
                     <strong>2D Elevation</strong>{`: 2D Elevation Design in Architecture in Elevation  is a cancial visual representation that provides in sights into a building's exterior appearance.`}
                   </p>
@@ -245,9 +245,9 @@ function Service() {
             <div className='p_1 img_set '>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' style={{ margin: "0px" }}>
+                  <span className='text-black pDesign' style={{ margin: "0px" }}>
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}} >STRUCTURE DRAWING</h5><br />
-                  </p>
+                  </span>
                   <p className='text-black pDesign'>
                     <strong>Drawing</strong>{`:Structure drawing is a funcdamental component of the architectural design process, structure Drawings are critical components of Construction documents, detailing the engineeered aspects of a building's Projects.`}
                   </p>
@@ -360,10 +360,10 @@ function Service() {
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' style={{ margin: "0px" }}>
+                  <span className='text-black pDesign' style={{ margin: "0px" }}>
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>INTERIOR Design:-</h5><br />
                     
-                  </p>
+                  </span>
                   <p className='text-black pDesign'>
                     <strong>Interior</strong>: House Interior Design is the art and science of enhancing the interior a residential structure to create spaces a more of aesthetically pleasing and fuctional environment.Interior design involves the thoughtfull and selection of furniture, colour  schemes, decorations, lighting, and other elements to achieve a cohesive and harmonious living space..
                   </p>
@@ -397,10 +397,10 @@ function Service() {
             <div className='p_1 img_set'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' >
+                  <span className='text-black pDesign' >
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>WALK-THROUGH</h5><br />
 
-                  </p>
+                  </span>
                   <p className='text-black pDesign' >
                     <strong>Walk Through</strong>: An Interactive 3D walkthrough home tour allows  to virtually glide from room to room using technology. The walk-through video is usually the most
                     used to visualize the Exterior and  Interior of the House and other building projects.
@@ -438,10 +438,10 @@ function Service() {
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' >
+                  <span className='text-black pDesign' >
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>3D FLOORPLAN</h5><br />
 
-                  </p>
+                  </span>
                   <p className='text-black pDesign' >
                     <strong>3D Floor-plan</strong>: A 3D floorplan is an image that shows the structure (wall, doors, widows) and layout. (fixtures, fittings, furniture) of a building, Property, office, or home in the three dimensions.
                   </p>
@@ -516,9 +516,9 @@ function Service() {
             <div className='p_1 img_set'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
-                  <p className='text-black pDesign' >
+                  <span className='text-black pDesign' >
                     <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>LANDSCAPE</h5><br />
-                  </p>
+                  </span>
                   <p className='text-black pDesign' >
                     <strong>Landscape</strong>: A landscape encompasses the visible features of the land, including its landforms and how they integrate with natural or human-made elements.
                   </p>
