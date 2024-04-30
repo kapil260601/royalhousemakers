@@ -32,6 +32,9 @@
   border-radius: 50%;
   margin-bottom: 188px;
 }
+.desii{
+  margin-left:65% !important;
+}
 
 .footer-content {
   position: relative;
@@ -176,10 +179,8 @@
     color: white !important;
 }
 .color_footer{
-  margin-right: -75px !important;
+  margin-left: 85px !important;
 }
-
-
 .Cursor{
   cursor: text;
 }
@@ -197,6 +198,15 @@
   .footer-social-icon a {
     margin-left: 43px !important;
   }
+  .color_footer {
+    margin-right: -46px !important;
+}
+.desii{
+  margin-left:10% !important;
+}
+.desi{
+  margin-left:7px !important;
+}
 }
 @media only screen and (max-width: 480px) {
   .footer-social-icon {

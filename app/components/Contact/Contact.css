@@ -501,7 +501,7 @@
   float: left;
   padding: 0px 30px;
   margin: 14px 12px;
-  border-radius: 40px;
+  border-radius: 18px;
   border: 3px dotted #6279a7;
 }
 
@@ -511,7 +511,7 @@
 }
 .form-fields .form-group:last-child {
   width: 96%;
-  border-radius: 60px;
+  border-radius: 18px;
 }
 .submit-button{
   width: 36%;
@@ -553,7 +553,8 @@
     .info-wrap {
       text-align: left;
       margin-bottom: 30px;
-      width:32% !important;
+      margin-left:3px !important;
+      width:33% !important;
       padding:11px !important;
       height: 490px !important;
     }
@@ -579,26 +580,50 @@
   
     .form-wrap {
       width: 100%;
+      padding: 9px 0px 0px 0px;
+    }
+
+    .form-group{
+     
+    padding: 0px 0px;
+    
+    border-radius: 18px;
+    
     }
   
     .form-fields {
       display: flex;
+      width: 70% !important;
       flex-direction: column;
     }
   
-    .input-field,
+    .input-field {
+      width: 30% !important;
+      margin-left: 20px;
+    }
+
     textarea {
-      width: 20% !important;
+      width: 56% !important;
+      margin-left:10px !important;
     }
   
     .submit-button {
       width: 20%;
-      margin-top: 20px;
-      margin-right: 740px;
+      margin-left: 75px !important;
+      margin-bottom: 15px !important;
     }
-  
+    .form-title{
+      margin-top:10px;
+      margin-left: 50px !important;
+    }
+    .form-fields .form-group:last-child {
+      width:46% !important;
+      border-radius: 18px;
+    }
+
+    .form-fields textarea {
+      height: 92px;
+      resize: none;
+  }
     /* Adjust other styles as needed */
   }
-  
-  
- 

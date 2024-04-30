@@ -41,7 +41,7 @@ function Footer() {
                             <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
                                 <div className="cta-text ">
                                     <h4 className="text-start">Mail us</h4>
-                                    <a className="Cursor" href="#"><span style={{color:"#AB8282", fontSize:"18px"}} className="text-start">royalhousemakers@gmail.com</span></a>
+                                    <a className="Cursor desi" href="#"><span style={{color:"#AB8282", fontSize:"18px"}} className="text-start">royalhousemakers@gmail.com</span></a>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ function Footer() {
                                     <h3 className="text-center">Useful Links</h3>
                                 </div>
                                 
-                                <ul className="color_footer" style={{marginLeft:"65px"}}>
+                                <ul className="color_footer desii">
                                 <li style={{color:"#AB8282"}}><a href="#">Home</a></li>
                                     <li style={{color:"#AB8282",}}><a href="#">About</a></li>
                                     <li style={{color:"#AB8282"}}> <a href="#">Services</a></li>
