@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ['latin'], weight: ['200'] })
 
 export const metadata = {
   title: 'Royal House Makers',
-  description: 'Visit Royal House Makerx and Choose Your Dream House',
+  description: "Visit Royal House Maker's and Choose Your Dream House",
 }
 
 export default async function RootLayout({ children }) {

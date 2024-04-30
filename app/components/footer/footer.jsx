@@ -1,8 +1,7 @@
 "use client" 
 
 import './index.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
@@ -18,7 +17,7 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="single-cta d-flex justify-content-start">
-                            <HomeSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"188px"}} />
+                            <HomeSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"188px"}} />
                                 <div className="cta-text ms-5">
                                     <h4 className="text-start">Find us</h4>
                                     <a className="Cursor" href="#"><p className="text-start" style={{color:"#AB8282", fontSize:"18px"}}>6 A Shivampuri colony,<br /> Bholaram Ustadmarg,<br /> Indore, 452001</p> </a>
@@ -29,7 +28,7 @@ function Footer() {
                         </div>
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="single-cta">
-                            <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"46px"}} />
+                            <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"46px"}} />
                                  <div className="cta-text ms-5">
                                     <h4 className="text-start">Call us</h4>
                                     <a className="Cursor" href="#"><span style={{color:"#AB8282",fontSize:"18px"}} className="text-start">9009700155</span></a>
@@ -38,7 +37,7 @@ function Footer() {
                         </div>
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="single-cta">
-                            <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
+                            <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
                                 <div className="cta-text ">
                                     <h4 className="text-start">Mail us</h4>
                                     <a className="Cursor desi" href="#"><span style={{color:"#AB8282", fontSize:"18px"}} className="text-start">royalhousemakers@gmail.com</span></a>
@@ -47,12 +46,12 @@ function Footer() {
                         </div>
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="footer-social-icon single-cta" style={{display:"flex"}}>
-                            <AddCircleOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "0px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                            <AddCircleOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "0px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
                                 <span>Follow: </span>
-                                <a className="Icons" href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
-                                <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
-                                <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
-                                <a className="Icons" href="#">                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="#">                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                             </div>
                         </div>
                     </div>
@@ -62,9 +61,9 @@ function Footer() {
                         <div className="col-md-6 col-lg-4 col-sm-12 d-flex justify-content-center">
                             <div className="footer-widget">
                                 <div className="footer-logo">
-                                    {/* <Link to="/"> */}
+                                    
                                         <img src="./777.png" className="img-fluid" alt="logo" />
-                                    {/* </Link> */}
+                                    
                                 </div>
                             </div>
                         </div>

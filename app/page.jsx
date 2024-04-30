@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+
 import "../app/components/header/home.css";
 import Navbar from "./components/header/header";
 import Service from "./components/Serv/Service";
