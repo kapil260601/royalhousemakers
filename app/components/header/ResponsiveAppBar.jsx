@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import Drawer from '@mui/material/Drawer';
 
-import { CirclesWithBar } from "react-loader-spinner";
+
 import styles from './apk.css'; // Adjust CSS import based on your setup
 
 const pages = ['Home', 'About US', 'Contact Us', 'WhatsApp', 'Login'];

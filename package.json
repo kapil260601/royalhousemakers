@@ -14,6 +14,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@mui/icons-material": "^5.15.15",
     "@mui/material": "^5.15.15",
+    "@next-tools/dynamic": "^0.0.11",
     "bootstrap": "^5.3.3",
     "firebase": "^10.10.0",
     "font-awesome": "^4.7.0",
@@ -32,6 +33,7 @@
     "sweetalert2-uncensored": "^11.10.6-uncensored"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^14.2.3",
     "eslint": "^8",
     "eslint-config-next": "^14.1.4",
     "eslint-config-prettier": "^9.1.0"

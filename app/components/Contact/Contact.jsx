@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Contact.css";
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
@@ -28,24 +28,24 @@ function Contact() {
                 <h3 className="info-sub-title">Fill up the form and our Team will<br/> get back to you within 24 hours</h3>
                 <ul className="info-details">
                     <li>
-                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
                         <span className='ms-1' style={{fontWeight:"700"}}>Mo. Number:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919009700155</a>
                     </li>
                     <li >
-                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
 
                         <span className='' style={{fontWeight:"700"}} >Email:</span> <a style={{marginLeft:"50px"}} className='' href="mailto:info@yoursite.com">royalhousemakers@gmail.com</a>
                     </li>
                     <li>
-                    <LanguageSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                    <LanguageSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
 
                         <span className='ms-1' style={{fontWeight:"700"}}>Website:</span> <a style={{marginLeft:"50px"}} className='' href="#">https://royalhousemakers.com/</a>
                     </li>
                 </ul>
                 <ul className="social-icons d-flex justify-content-center ">
-                    <li className='List_1'><a href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
-                    <li className='List_2'><a href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
-                    <li className='List_2'><a href="#"><CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",borderRadius:" 30%",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
+                    <li className='List_1'><a href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
+                    <li className='List_2'><a href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
+                    <li className='List_2'><a href="#"><CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
                 </ul>
             </div>
             <div className="form-wrap">

@@ -30,8 +30,7 @@ const FrontPage = () => {
   }, [contentIndex, contents]);
 
   const textColor = '#ffff'; 
-  const subTextColor = 'dark';  
-  
+ 
   return (
     <div className='' style={{ position: 'relative', width: '100%', height: '100vh' }}>
         <video autoPlay loop muted style={{ width: '100%', height: '100%', objectFit: 'cover' }}>

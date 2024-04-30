@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import "./Service.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -31,19 +31,19 @@ function Service() {
   { /*  3D FLOORPLAN */ }
   const images6 = ['./3D FLOORPLAN/A.jpg', './3D FLOORPLAN/B.jpg', './3D FLOORPLAN/C.jpg', './3D FLOORPLAN/D.jpg', './3D FLOORPLAN/E.jpg', './3D FLOORPLAN/F.jpg', './3D FLOORPLAN/G.jpg', './3D FLOORPLAN/H.jpg', './3D FLOORPLAN/I.jpg', './3D FLOORPLAN/J.jpg', './3D FLOORPLAN/K.jpg', './3D FLOORPLAN/L.jpg', './3D FLOORPLAN/M.jpg', './3D FLOORPLAN/N.jpg'];
 
-  const [activeIndex, setActiveIndex] = useState(0);
+  // const [activeIndex, setActiveIndex] = useState(0);
 
   // Function to handle click on previous button
-  const handlePrev = () => {
-    const newIndex = (activeIndex === 0) ? images.length - 1 : activeIndex - 1;
-    setActiveIndex(newIndex);
-  };
+  // const handlePrev = () => {
+  //   const newIndex = (activeIndex === 0) ? images.length - 1 : activeIndex - 1;
+  //   setActiveIndex(newIndex);
+  // };
 
   // Function to handle click on next button
-  const handleNext = () => {
-    const newIndex = (activeIndex === images.length - 1) ? 0 : activeIndex + 1;
-    setActiveIndex(newIndex);
-  };
+  // const handleNext = () => {
+  //   const newIndex = (activeIndex === images.length - 1) ? 0 : activeIndex + 1;
+  //   setActiveIndex(newIndex);
+  // };
 
   return (
     <div className=''>
