@@ -9,7 +9,7 @@ import SendSharpIcon from '@mui/icons-material/SendSharp';
 import AddCircleOutlineSharpIcon from '@mui/icons-material/AddCircleOutlineSharp';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 function Footer() {
-    return (
+    return (   
         <>
         {/* <div className="css-12ji5ln css-1xo4n4x-separatorInView">
             <div className="css-109hxpk"></div>
