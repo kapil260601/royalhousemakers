@@ -65,7 +65,7 @@ function Contact() {
                             <input type="number" className="phone input-field" placeholder="Mobile"/>
                         </div>
                         <div className="form-group">
-                            <textarea name="message" id="" placeholder="  Write your message" className=''></textarea>
+                            <textarea name="message" id="" placeholder="Message" className=''></textarea>
                         </div>
                     </div>
                     <input type="submit" value="Send Message" className="submit-button"/>
