@@ -11,6 +11,12 @@ import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 function Footer() {
     return (
         <>
+        {/* <div className="css-12ji5ln css-1xo4n4x-separatorInView">
+            <div className="css-109hxpk"></div>
+            <div className="css-19fmy24"></div>
+            <div className="css-1n0ydlz"></div>
+            <div className="css-txxjky"></div>
+        </div> */}
            <footer className="footer-section px-3">
             <div className="pt-5">
                 <div className="footer-cta pt-3 pb-3">
@@ -20,7 +26,7 @@ function Footer() {
                             <HomeSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"188px"}} />
                                 <div className="cta-text ms-5">
                                     <h4 className="text-start">Find us</h4>
-                                    <a className="Cursor" href="#"><p className="text-start" style={{color:"#AB8282", fontSize:"18px"}}>6 A Shivampuri colony,<br /> Bholaram Ustadmarg,<br /> Indore, 452001</p> </a>
+                                    <a className="Cursor" href="#"><p className="text-start" style={{color:"#AB8282", fontSize:"18px"}}>6 A Shivampuri colony,<br /> Bholaram Ustad Marg,<br /> Indore, 452001</p> </a>
                                    
 
                                 </div>

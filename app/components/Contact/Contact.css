@@ -487,14 +487,15 @@
   border-radius: 60px !important;
   font-size: 18px;
   color:#555;
-  padding: 20px 10px 20px 5px;
-  width:100%
+  padding: 20px 20px 20px 9px;
+  width:100%;
+  font-family:'Roboto', sans-serif;
+  
 }
 .form-fields textarea{
   height: 150px;
   resize: none;
-  
-
+  font-family:'Roboto', sans-serif;
 }
 .form-group{
   width: 46%;
@@ -624,6 +625,8 @@
     .form-fields textarea {
       height: 92px;
       resize: none;
+      font-family:'Roboto', sans-serif;
+      margin-left: 20px !important;
   }
     /* Adjust other styles as needed */
   }

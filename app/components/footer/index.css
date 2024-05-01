@@ -190,6 +190,98 @@
    width: '25px';
     height: '25px'; 
 }
+
+.css-12ji5ln {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  height: 64px;
+  background-color: #fff;
+}.css-12ji5ln {
+  display: flex;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  height: 64px;
+  background-color: white;
+}
+
+.css-1xo4n4x-separatorInView .css-109hxpk {
+  height: 0px;
+}
+
+.css-109hxpk {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-color: #151414;
+  height: 0;
+  transition-property: height;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.3, 0, 0.5, 1);
+  transition-delay: 300ms;
+}
+
+.css-1xo4n4x-separatorInView .css-19fmy24 {
+  height: 21px;
+}
+
+.css-19fmy24 {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-color: #151414;
+  height: 0;
+  transition-property: height;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.3, 0, 0.5, 1);
+  transition-delay: 200ms;
+}
+
+.css-1xo4n4x-separatorInView .css-1n0ydlz {
+  height: 42px;
+}
+
+.css-1n0ydlz {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-color: #151414;
+  height: 0;
+  transition-property: height;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.3, 0, 0.5, 1);
+  transition-delay: 100ms;
+}
+
+.css-1xo4n4x-separatorInView .css-txxjky {
+  height: 64px;
+}
+
+.css-txxjky {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-color: #151414;
+  height: 0;
+  transition-property: height;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.3, 0, 0.5, 1);
+  transition-delay: 0ms;
+}
+
+
+
 @media only screen and (max-width: 768px) {
 
   .footer-social-icon span {
