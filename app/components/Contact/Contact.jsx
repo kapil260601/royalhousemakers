@@ -5,16 +5,16 @@ import CallSharpIcon from '@mui/icons-material/CallSharp';
 import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
 import LanguageSharpIcon from '@mui/icons-material/LanguageSharp';
 import SendSharpIcon from '@mui/icons-material/SendSharp';
-function Contact() {
+function Contact() { 
   return (
     <>
     <div className='map-design'>
-        <iframe
-            title="Google Map"
+        <iframe  
+            title="Google Map" 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1989907590887!2d75.86164031067347!3d22.683635079326898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcf1f0b22763%3A0x789d74a3d5225d70!2s6%2C%20Shivampuri%20Colony%2C%20Indore%2C%20Madhya%20Pradesh%20452014!5e0!3m2!1sen!2sin!4v1709792132619!5m2!1sen!2sin"
             width="100%"
             height="445"
-            style={{borderRadius:"5px", fontSize:"20px" }}
+            style={{borderRadius:"6px", fontSize:"20px" }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
