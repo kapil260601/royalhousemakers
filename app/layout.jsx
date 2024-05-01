@@ -3,7 +3,7 @@ import { Montserrat } from 'next/font/google'
 import Header from '@/app/components/header/header'
 import Footer from '@/app/components/footer/footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './globals.scss'
+import './globals.scss' 
 
 const montserrat = Montserrat({ subsets: ['latin'], weight: ['200'] })
 
