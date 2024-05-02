@@ -56,7 +56,7 @@ function Service() {
           <img className='design img-fluid' src="./1-1-1-1.jpg" alt="Project" />
         </div>
         { /* Floor Plan */}
-        <div className="row mt-1 p-3">
+        <div className="row  mt-1 ">
           <div id='a' className="col-lg-6 col-sm-12 d-flex justify-content-center" >
             <div id="demo" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
               <div className="carousel-inner primary">
@@ -317,8 +317,6 @@ function Service() {
           </div>
           <div id='h' className="col-lg-6 d-flex justify-content-center mt-5" >
             <div id="demo4" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-
-
               <div className="carousel-inner primary">
                 {images3.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -379,16 +377,16 @@ function Service() {
 
           {/* Video You TUbe */}
           
-          <div id='k' className="col-lg-6 mt-3 d-flex justify-content-center border-nav p-1" >
+          <div id='k' className="col-lg-6 mt-3 d-flex justify-content-center" >
             <iframe 
-              title="You Tube Video"
-              src="./Slider.mp4"
-              width="100%"
+              title="You Tube Video"  
+              src="./Slider.mp4" 
+              width="96%"
               height="445"
-              style={{ borderRadius: "5px" }}
-              allowFullScreen=""
-              loading="lazy"
-              autoPlay
+              style={{ borderRadius: "5px", border: "5px solid #ED7F00 !important" }}
+              allowFullScreen="" 
+              loading="lazy" 
+              autoPlay 
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           

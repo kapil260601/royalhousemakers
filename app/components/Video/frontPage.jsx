@@ -35,8 +35,9 @@ const FrontPage = () => {
     <div className='' style={{ position: 'relative', width: '100%', height: '100vh' }}>
         <video autoPlay loop muted style={{ width: '100%', height: '100%', objectFit: 'cover' }}>
           <source src="./99.mp4" type="video/mp4" />
+          {/* <button onclick="scrollToBottom()">Scroll to Bottom</button> */}
         </video>
-        <div className='w-100  VideoContent' style={{ position: 'absolute', top: '50%', left: '52%', transform: 'translate(-50%, -50%)' }}>
+        <div className='w-100  VideoContent' style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}>
           <h1 className='VideoHeader' style={{ color: textColor, maxWidth: '100vw' }}>{contents[contentIndex].text}</h1>
           <p className='VideoPara g-4' style={{ color: '#EEEDEB', fontSize: '1rem', maxWidth: '90vw' }}>{contents[contentIndex].subText}</p>
         </div>

@@ -372,13 +372,17 @@
   width: 100%;
   padding:10px!important;
 }
-.box-wrapper{
+.box-hint{
   position: relative;
-  display: table;
-  width:1100px;
+  /* display: table; */
+  width:100%;
   margin: 40px auto !important;
   /* margin-top:35px; */
   border-radius: 30px;
+}
+
+.body__2 {
+  padding: 5px 5px !important;
 }
 .info-wrap{
   width:35%;
@@ -469,7 +473,7 @@
 }
 .form-title{
   text-align: left;
-  margin-left: 196px;
+  margin-left: 309px;
   font-weight: 700;
   font-size: 28px;
   letter-spacing: 0.5px;
@@ -550,14 +554,21 @@
       flex-direction: column;
       align-items: left;
     }
-  
+    .info-title {
+      /* text-align: left; */
+      font-size: 26px;
+      font-weight: 700;
+      margin-left: 15px !important;
+      letter-spacing: 0.5px;
+      color: #F95911;
+  }
     .info-wrap {
       text-align: left;
-      margin-bottom: 30px;
-      margin-left:3px !important;
-      width:33% !important;
-      padding:11px !important;
-      height: 490px !important;
+      margin-bottom: 20px !important;
+      /* margin-left:3px !important; */
+      width:100% !important;
+      padding:12px !important;
+      height: 500px !important;
     }
   
     .info-details {
@@ -576,7 +587,7 @@
     }
   
     .social-icons li {
-      margin: 0 5px;
+      margin: -5px 5px !important;
     }
   
     .form-wrap {
@@ -591,15 +602,22 @@
     border-radius: 18px;
     
     }
+
+    .form-group {
+      width: 94% !important;
+      float: left;
+      border-radius: 18px;
+      border: 3px dotted #6279a7;
+  }
   
     .form-fields {
       display: flex;
-      width: 70% !important;
+      width: 100% !important;
       flex-direction: column;
     }
   
     .input-field {
-      width: 30% !important;
+      width: 60% !important;
       margin-left: 20px;
     }
 
@@ -609,16 +627,16 @@
     }
   
     .submit-button {
-      width: 20%;
-      margin-left: 75px !important;
+      width: 50% !important;
+      margin-left: 95px !important;
       margin-bottom: 15px !important;
     }
     .form-title{
       margin-top:10px;
-      margin-left: 50px !important;
+      margin-left: 27px !important;
     }
     .form-fields .form-group:last-child {
-      width:46% !important;
+      width:94% !important;
       border-radius: 18px;
     }
 

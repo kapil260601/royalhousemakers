@@ -33,7 +33,7 @@
   margin-bottom: 188px;
 }
 .desii{
-  margin-left:65% !important;
+  /* margin-left:65% !important; */
 }
 
 .footer-content {
@@ -184,10 +184,10 @@
 .Cursor{
   cursor: text;
 }
-.Icons
-{
-  color: 'white' !important;
-   width: '25px';
+.Icons 
+{ 
+  color: 'white' !important; 
+   width: '25px'; 
     height: '25px'; 
 }
 
@@ -288,10 +288,11 @@
     padding-left: 7px;
   }
   .footer-social-icon a {
+    margin-top: 3px !important;
     margin-left: 43px !important;
   }
   .color_footer {
-    margin-right: -46px !important;
+    /* margin-right: -46px !important; */
 }
 .desii{
   margin-left:10% !important;
@@ -306,7 +307,9 @@
     font-size: 20px;
   }
   .footer-social-icon span {
-    padding-left: 60px;
+    padding-top: 5px !important;
+
+    padding-left: 54px !important;
     font-size: 20px;
   }
   .footer-social-icon {
