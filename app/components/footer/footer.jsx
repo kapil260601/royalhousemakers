@@ -51,13 +51,13 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 mt-2">
-                            <div className="footer-social-icon single-cta" style={{display:"flex"}}>
+                            <div className="footer-social-icon single-cta" style={{display:"flex", marginLeft:"40px"}}>
                             <AddCircleOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "0px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
                                 <span>Follow: </span>
-                                <a className="Icons" href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
-                                <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
-                                <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
-                                <a className="Icons" href="#">                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                {/* <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
+                                <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="#">                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ function Footer() {
                                 <li style={{color:"#AB8282"}}><a href="#">Home</a></li>
                                     <li style={{color:"#AB8282",}}><a href="#">About</a></li>
                                     <li style={{color:"#AB8282"}}> <a href="#">Services</a></li>
-                                    <li style={{color:"#AB8282"}}><a href="#">Portfolio</a></li>
+                                    <li style={{color:"#AB8282"}}><a href="#">Whatsup</a></li>
                                     <li style={{color:"#AB8282"}}>  <a href="#">Contact</a></li>
                                     <li style={{color:"#AB8282"}}><a href="#">Expert Team</a></li>
                                 </ul>
@@ -115,6 +115,7 @@ function Footer() {
                         <div className="col-12 text-center">
                             <div className="copyright-text">
                                 <p style={{fontSize:"18px"}}>Copyright &copy; 2024, All Right Reserved <a href="#">Royal House Makers</a></p>
+                                
                             </div>
                         </div>
                     </div>
