@@ -114,7 +114,7 @@ function Service() {
           </div> 
           { /*  3D ELEVATION DESIGN */}   
 
-          <div id='c' className='col-lg-6'>
+          <div id='c' className='col-lg-6 mt-3'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -155,7 +155,7 @@ function Service() {
               </div>
             </div>
           </div>
-          <div id='d' className="col-lg-6 d-flex justify-content-center" >
+          <div id='d' className="col-lg-6 d-flex justify-content-center mt-3" >
             {/* <div id="demo2" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
              
 
@@ -184,7 +184,7 @@ function Service() {
           </div>
           { /*  2D Elevation */}
 
-          <div id='e' className="col-lg-6 d-flex justify-content-center" >
+          <div id='e' className="col-lg-6 d-flex justify-content-center mt-3" >
             {/* <div id="demo3" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
               <div className="carousel-inner primary">
                 {images2.map((image, index) => (
@@ -209,7 +209,7 @@ function Service() {
             ))}
           </Carousel>
           </div>
-          <div id='f' className='col-lg-6'>
+          <div id='f' className='col-lg-6 mt-2'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -249,7 +249,7 @@ function Service() {
             </div>
           </div>
           { /*  STRUCTURE DRAWING */}
-          <div id='g' className='col-lg-6 mt-3'>
+          <div id='g' className='col-lg-6 mt-4'>
             <div className='p_1 img_set '>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -314,16 +314,16 @@ function Service() {
                       <p className='text-black pDesign' style={{ margin: "2px" }}>
                         <strong>*</strong> Column & Beam details.
                       </p>
-                      <p className='text-black pDesign' style={{ margin: "2px" }}>
+                      {/* <p className='text-black pDesign' style={{ margin: "2px" }}>
                         <strong>*</strong> Pre-engineer Component.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div id='h' className="col-lg-6 d-flex justify-content-center mt-5" >
+          <div id='h' className="col-lg-6 d-flex justify-content-center mt-3" >
             {/* <div id="demo4" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
               <div className="carousel-inner primary">
                 {images3.map((image, index) => (
@@ -350,7 +350,7 @@ function Service() {
           </div>
           { /*  Interior Design */}
 
-           <div id='i' className="col-lg-6 d-flex justify-content-center" >
+           <div id='i' className="col-lg-6 d-flex justify-content-center mt-3" >
             {/* <div id="demo1" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
@@ -376,7 +376,7 @@ function Service() {
             ))}
           </Carousel>
           </div>
-          <div id="j" className='col-lg-6'>
+          <div id="j" className='col-lg-6 mt-3'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -413,7 +413,7 @@ function Service() {
             ></iframe>
           
           </div>
-          <div id='l' className='col-lg-6 p-2'>
+          <div id='l' className='col-lg-6 p-2 mt-3'>
             <div className='p_1 img_set'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -454,7 +454,7 @@ function Service() {
 
           { /*  3D FLOOR PLAN */}
           
-          <div id='m' className='col-lg-6 mt-3 py-4'>
+          <div id='m' className='col-lg-6 mt-2 py-4'>
             <div className='p_1 img_set mt-2'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
@@ -492,7 +492,7 @@ function Service() {
               </div>
             </div>
           </div>
-          <div id='n' className="col-lg-6 d-flex justify-content-center mt-5" >
+          <div id='n' className="col-lg-6 d-flex justify-content-center mt-4" >
             {/* <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
@@ -519,7 +519,7 @@ function Service() {
           </Carousel>
           </div>
           { /*  Landscape */}
-          <div id='o' className="col-lg-6 d-flex justify-content-center mt-5" >
+          <div id='o' className="col-lg-6 d-flex justify-content-center mt-3" >
             {/* <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
 
@@ -546,7 +546,7 @@ function Service() {
             ))}
           </Carousel>
           </div>
-          <div id='p' className='col-lg-6  py-4'>
+          <div id='p' className='col-lg-6 mt-2 py-4'>
             <div className='p_1 img_set'>
               <div className='full-width-paragraph'>
                 <div className='text-start'>
