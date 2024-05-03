@@ -318,7 +318,7 @@
 .carousel-control-next-icon:hover {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
-@media only screen and (max-width: 767px)
+@media only screen  and (max-width: 767px)
 {
     #a{
         order:1;
@@ -363,6 +363,50 @@
     .CoverImg{
         height:365px !important;
         width: 100% !important;
+    }
+}
+
+@media only screen  and (max-width: 1080px)
+{
+    #a{
+        order:1;
+    }
+    #b{
+        order:2;
+    }#c{
+        order:4;
+    }#d{
+        order:3;
+    }#e{
+        order:5;
+    }#f{
+        order:6;
+    }#g{
+        order:8;
+    }
+    #h{
+        order:7;
+    }
+    #i{
+        order:9;
+    }
+    #j{
+        order:10;
+    }
+    #k{
+        order:11;
+    }
+    #l{
+        order:12;
+    }#m{
+        order:14;
+    }#n{
+        order:13;
+    }
+    #o{
+        order:15;
+    }#p{
+        order:16;
     }
 }
 
