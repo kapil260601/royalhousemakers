@@ -368,7 +368,7 @@
 
 @media only screen  and (max-width: 1080px)
 {
-    #a{
+    /* #a{
         order:1;
     }
     #b{
@@ -407,7 +407,16 @@
         order:15;
     }#p{
         order:16;
+    } */
+    .CoverImg{
+        height:375px !important;
+        width: 100% !important;
     }
+    .img_set{
+    
+        padding: 0px 16px !important;
+    }
+
 }
 
 .CoverImg{
