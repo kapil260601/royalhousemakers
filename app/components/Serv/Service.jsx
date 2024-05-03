@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Service.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from 'react-bootstrap/Carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 // import { Link } from 'react-router-dom';
 
@@ -13,37 +13,24 @@ function Service() {
 
 
   { /*  3D ELEVATION DESIGN */ }
-  const images1 = ['./3D ELEVATION/A.jpg', './3D ELEVATION/B.jpg', './3D ELEVATION/C.jpg', './3D ELEVATION/D.jpg', './3D ELEVATION/E.jpg', './3D ELEVATION/F.jpg'];
+  const images1 = ['./3D ELEVATION/C.jpg', './3D ELEVATION/B.jpg',  './3D ELEVATION/D.jpg', './3D ELEVATION/E.jpg', './3D ELEVATION/F.jpg','./3D ELEVATION/A.jpg'];
 
   { /*  2D Elevation */ }
-  const images2 = ['./Floor/A.jpg', './Floor/B.jpg', './Floor/C.jpg', './Floor/D.jpg', './Floor/E.jpg', './Floor/F.jpg'];
+  const images2 = [ './Floor/C.jpg','./Floor/A.jpg', './Floor/B.jpg',  './Floor/D.jpg', './Floor/E.jpg', './Floor/F.jpg'];
 
   { /*  STRUCTURE DRAWING */ }
-  const images3 = ['./Structure/J.png', './Structure/B.png', './Structure/C.png', './Structure/D.png', './Structure/E.png', './Structure/F.png', './Structure/G.png', './Structure/H.png', './Structure/I.png', './Structure/A.png', './Structure/K.png'];
+  const images3 = ['./Structure/E.png','./Structure/F.png', './Structure/J.png', './Structure/B.png', './Structure/C.png', './Structure/D.png',   './Structure/G.png', './Structure/H.png', './Structure/I.png', './Structure/A.png', './Structure/K.png'];
 
   { /*  Interior Design */ }
   const images4 = ['./Interior/A.jpg', './Interior/B.jpg', './Interior/C.jpg', './Interior/D.jpg', './Interior/E.jpg', './Interior/F.jpg'];
 
   { /*  Landscape */ }
-  const images5 = ['./Landscape/A.jpg', './Landscape/B.jpg', './Landscape/C.jpg', './Landscape/D.jpg', './Landscape/E.jpg', './Landscape/F.jpg'];
+  const images5 = ['./Landscape/B.jpg','./Landscape/A.jpg',  './Landscape/C.jpg', './Landscape/D.jpg', './Landscape/E.jpg', './Landscape/F.jpg'];
 
 
   { /*  3D FLOORPLAN */ }
-  const images6 = ['./3D FLOORPLAN/A.jpg', './3D FLOORPLAN/B.jpg', './3D FLOORPLAN/C.jpg', './3D FLOORPLAN/D.jpg', './3D FLOORPLAN/E.jpg', './3D FLOORPLAN/F.jpg', './3D FLOORPLAN/G.jpg', './3D FLOORPLAN/H.jpg', './3D FLOORPLAN/I.jpg', './3D FLOORPLAN/J.jpg', './3D FLOORPLAN/K.jpg', './3D FLOORPLAN/L.jpg', './3D FLOORPLAN/M.jpg', './3D FLOORPLAN/N.jpg'];
+  const images6 = ['./3D FLOORPLAN/D.jpg','./3D FLOORPLAN/C.jpg', './3D FLOORPLAN/A.jpg', './3D FLOORPLAN/B.jpg',  './3D FLOORPLAN/E.jpg', './3D FLOORPLAN/F.jpg', './3D FLOORPLAN/G.jpg', './3D FLOORPLAN/H.jpg', './3D FLOORPLAN/I.jpg', './3D FLOORPLAN/J.jpg', './3D FLOORPLAN/K.jpg', './3D FLOORPLAN/L.jpg', './3D FLOORPLAN/M.jpg', './3D FLOORPLAN/N.jpg'];
 
-  // const [activeIndex, setActiveIndex] = useState(0);
-
-  // Function to handle click on previous button
-  // const handlePrev = () => {
-  //   const newIndex = (activeIndex === 0) ? images.length - 1 : activeIndex - 1;
-  //   setActiveIndex(newIndex);
-  // };
-
-  // Function to handle click on next button
-  // const handleNext = () => {
-  //   const newIndex = (activeIndex === images.length - 1) ? 0 : activeIndex + 1;
-  //   setActiveIndex(newIndex);
-  // };
 
   return (
     <div className=''>
@@ -58,7 +45,7 @@ function Service() {
         { /* Floor Plan */}
         <div className="row  mt-1 ">
           <div id='a' className="col-lg-6 col-sm-12 d-flex justify-content-center" >
-            <div id="demo" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
               <div className="carousel-inner primary">
                 {images.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -73,7 +60,14 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2' interval={null}>
+            {images.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           <div id='b' className='col-lg-6 col-sm-12'>
             <div className='p_1 img_set mt-2'>
@@ -162,7 +156,7 @@ function Service() {
             </div>
           </div>
           <div id='d' className="col-lg-6 d-flex justify-content-center" >
-            <div id="demo2" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo2" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
              
 
               <div className="carousel-inner primary">
@@ -179,12 +173,19 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2'  interval={null}>
+            {images1.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           { /*  2D Elevation */}
 
           <div id='e' className="col-lg-6 d-flex justify-content-center" >
-            <div id="demo3" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo3" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
               <div className="carousel-inner primary">
                 {images2.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -199,7 +200,14 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo3" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2'  interval={null}>
+            {images2.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           <div id='f' className='col-lg-6'>
             <div className='p_1 img_set mt-2'>
@@ -316,7 +324,7 @@ function Service() {
             </div>
           </div>
           <div id='h' className="col-lg-6 d-flex justify-content-center mt-5" >
-            <div id="demo4" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo4" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
               <div className="carousel-inner primary">
                 {images3.map((image, index) => (
                   <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
@@ -331,12 +339,19 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo4" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2'  interval={null}>
+            {images3.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           { /*  Interior Design */}
 
            <div id='i' className="col-lg-6 d-flex justify-content-center" >
-            <div id="demo1" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo1" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
                 {images4.map((image, index) => (
@@ -352,7 +367,14 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2'  interval={null}>
+            {images4.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           <div id="j" className='col-lg-6'>
             <div className='p_1 img_set mt-2'>
@@ -471,7 +493,7 @@ function Service() {
             </div>
           </div>
           <div id='n' className="col-lg-6 d-flex justify-content-center mt-5" >
-            <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
               <div className="carousel-inner primary">
                 {images6.map((image, index) => (
@@ -487,11 +509,18 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2'  interval={null}>
+            {images6.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           { /*  Landscape */}
           <div id='o' className="col-lg-6 d-flex justify-content-center mt-5" >
-            <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
+            {/* <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
 
 
               <div className="carousel-inner primary">
@@ -508,7 +537,14 @@ function Service() {
               <button className="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next">
                 <span className="carousel-control-next-icon"></span>
               </button>
-            </div>
+            </div> */}
+            <Carousel className='px-2'  interval={null}>
+            {images5.map((image, index) => (
+              <Carousel.Item key={index}>
+                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+              </Carousel.Item>
+            ))}
+          </Carousel>
           </div>
           <div id='p' className='col-lg-6  py-4'>
             <div className='p_1 img_set'>

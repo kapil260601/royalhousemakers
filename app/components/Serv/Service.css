@@ -361,13 +361,13 @@
         order:16;
     }
     .CoverImg{
-        height:418px;
-        width: 380px !important;
+        height:365px !important;
+        width: 100% !important;
     }
 }
 
 .CoverImg{
-    height:418px;
+    height:450px;
     width: 734px;
 }
 .floorplan-container {
