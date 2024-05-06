@@ -5,7 +5,7 @@ import './index.css';
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
-import SendSharpIcon from '@mui/icons-material/SendSharp';
+// import SendSharpIcon from '@mui/icons-material/SendSharp';
 import AddCircleOutlineSharpIcon from '@mui/icons-material/AddCircleOutlineSharp';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 function Footer() {
@@ -45,7 +45,7 @@ function Footer() {
                             <div className="single-cta">
                             <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
                                 <div className="cta-text ">
-                                    <h4 className="text-start">Mail us</h4>
+                                    <h4 className="text-start">Mail:</h4>
                                     <a className="Cursor desi" href="#"><span style={{color:"#AB8282", fontSize:"18px"}} className="text-start">royalhousemakers@gmail.com</span></a>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ function Footer() {
                                 <span>Follow: </span>
                                 <a className="Icons" href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                                 {/* <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
-                                <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                {/* <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
                                 <a className="Icons" href="#">                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                             </div>
                         </div>
@@ -69,6 +69,7 @@ function Footer() {
                                 <div className="footer-logo">
                                     
                                         <img src="./777.png" className="img-fluid" alt="logo" />
+                                        <p className="text-start" style={{color:"#AB8282", fontSize:"17px", fontFamily:"sans-serif"}}>Crafting Your Dream Home: Personalized Solutions from Royal House Maker .</p>
                                     
                                 </div>
                             </div>

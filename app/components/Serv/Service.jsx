@@ -74,7 +74,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' style={{ color: "black", fontWeight:"900" }}>
-                    <h5 class='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>FLOOR PLAN</h5><br />
+                    <h5 class='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>FLOOR PLAN : </h5><br />
                   </span>
                   <p className='text-black pDesign' >
                     <strong>Floor Plan</strong>{`: A floorplan is a detailed visual representation of a building's layout, typically viewed above-it provides essental information about the arrangment of rooms, walls, Doors, windows and other architectual features.` }
@@ -119,7 +119,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' >
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>3D ELEVATION DESIGN</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>3D ELEVATION DESIGN : </h5><br />
 
                   </span>
                   <p className='text-black pDesign' >
@@ -214,7 +214,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' >
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>2D Elevation</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>2D Elevation : </h5><br />
 
                   </span>
                   <p className='text-black pDesign' >
@@ -254,7 +254,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' style={{ margin: "0px" }}>
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}} >STRUCTURE DRAWING</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}} >STRUCTURE DRAWING : </h5><br />
                   </span>
                   <p className='text-black pDesign'>
                     <strong>Drawing</strong>{`:Structure drawing is a funcdamental component of the architectural design process, structure Drawings are critical components of Construction documents, detailing the engineeered aspects of a building's Projects.`}
@@ -381,7 +381,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' style={{ margin: "0px" }}>
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>INTERIOR Design:-</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>INTERIOR DESIGN :</h5><br />
                     
                   </span>
                   <p className='text-black pDesign'>
@@ -418,7 +418,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' >
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>WALK-THROUGH</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>WALK-THROUGH : </h5><br />
 
                   </span>
                   <p className='text-black pDesign' >
@@ -459,7 +459,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' >
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>3D FLOORPLAN</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>3D FLOORPLAN : </h5><br />
 
                   </span>
                   <p className='text-black pDesign' >
@@ -551,7 +551,7 @@ function Service() {
               <div className='full-width-paragraph'>
                 <div className='text-start'>
                   <span className='text-black pDesign' >
-                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>LANDSCAPE</h5><br />
+                    <h5 className='Header-1-1-1 pDesign' style={{fontWeight:"700"}}>LANDSCAPE : </h5><br />
                   </span>
                   <p className='text-black pDesign' >
                     <strong>Landscape</strong>: A landscape encompasses the visible features of the land, including its landforms and how they integrate with natural or human-made elements.
