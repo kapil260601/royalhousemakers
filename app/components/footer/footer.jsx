@@ -5,7 +5,7 @@ import './index.css';
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
-import SendSharpIcon from '@mui/icons-material/SendSharp';
+// import SendSharpIcon from '@mui/icons-material/SendSharp';
 import AddCircleOutlineSharpIcon from '@mui/icons-material/AddCircleOutlineSharp';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 function Footer() {
