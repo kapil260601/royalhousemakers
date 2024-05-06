@@ -5,19 +5,19 @@ const FrontPage = () => {
   const [contentIndex, setContentIndex] = useState(0);
   const contents = [
     {
-      text: '⪼ 1 Welcome to ROYAL HOUSE MAKERS .COM ⪻',
-      subText: " Where creativity meets functionality. We specialize in innovative architectural solutions for residential and commercial properties, combining aesthetics with practicality to transform visions into reality.",
+      text: '⪼ Custom Home Design: Your Vision, Our Expertise! . ⪻',
+      subText: 'Welcome to ROYAL HOUSE MAKERS, where your dream home becomes a reality! Royal House Maker specializes in crafting bespoke homes tailored to your unique needs and preferences. Whether you are envisioning a cozy cottage nestled in the countryside or a sleek, modern penthouse in the heart of the city, we are here to bring your vision to life.',
       duration: 5000 
       },
       {
-        text: '⪼ 2 Second content with the longest text to demonstrate the increased length of the text on the front page. ⪻',
-        subText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry',
-        duration: 5000
+        text: '⪼ Innovative Architectural Solutions: Where Creativity Meets Functionality . ⪻',
+      subText: " Where creativity meets functionality. We specialize in innovative architectural solutions for residential and commercial properties, combining aesthetics with practicality to transform visions into reality.",
+        duration: 9000
       },
       {
-        text: '⪼ 3 Welcome to ROYAL HOUSE MAKERS .COM ⪻',
-        subText: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-        duration: 5000
+        text: '⪼ Crafting Your Dream Home: Personalized Solutions from Royal House Maker .⪻',
+        subText: 'At Royal House Maker, we believe that your home should be a reflection of who you are. That is why we take the time to listen to your needs and preferences, ensuring that every detail is tailored to your specifications. With Royal House Maker, your dream home is within reach.',
+        duration: 9000
     }
   ];
 

@@ -171,6 +171,16 @@
 .footer-menu li:hover a{
   color: #ff5e14;
 }
+.customStyle{
+  background-color: #F95911;
+  color: #FFFFFF;
+  margin-right: 53px;
+  width: 40px;
+  height: 37px;
+  padding: 6px;
+  border-radius: 50%;
+  margin-bottom: 46px;
+}
 .footer-menu li a {
   font-size: 25px !important;
   color: white;
@@ -356,8 +366,18 @@
 .footer-social-icon span {
   padding-top: 5px !important;
 
-  padding-left: 54px !important;
+  padding-left: 24px !important;
   font-size: 20px;
+}
+.customStyle{
+  background-color: #F95911;
+  color: #FFFFFF;
+  margin-right: 4px !important;
+  width: 40px;
+  height: 37px;
+  padding: 6px;
+  border-radius: 50%;
+  margin-bottom: 46px;
 }
 .footer-social-icon {
   margin-left: 0px !important;
