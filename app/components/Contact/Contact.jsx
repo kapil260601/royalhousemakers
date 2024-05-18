@@ -20,7 +20,7 @@ function Contact() {
             referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
          </div>
-  <div className='row body__2 bg-opacity-100'>
+  <div id='contact-us' className='row body__2 bg-opacity-100'>
       <section className='col-12' id="section-wrapper">
         <div className="box-hint px-1">
             <div className=" info-wrap">

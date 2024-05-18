@@ -34,7 +34,7 @@ function Service() {
 
   return (
     <div className=''>
-      <div className='sec-heading mt-5'>
+      <div id="about-us" className='sec-heading mt-5'>
         <h5>About Us</h5>
         
       </div>

@@ -15,7 +15,7 @@ import Drawer from '@mui/material/Drawer';
 
 import styles from './apk.css'; // Adjust CSS import based on your setup
 
-const pages = ['Home', 'About US', 'Contact Us', 'WhatsApp', 'Login'];
+const pages = ['Home', 'About US', 'Contact Us', 'WhatsApp'];
 
 export default function ResponsiveAppBar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -60,20 +60,33 @@ export default function ResponsiveAppBar() {
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              page === "WhatsApp" ? (
-                <Button key={page} sx={{ mx: 1, color: 'black' }} href='https://wa.link/pfwjp2'>
-                  {page}
-                </Button>
-              ) : (
-                <Link sx={{color: 'black' }} key={page} href={'/' + page.toLowerCase()}>
-                  <Button sx={{ mx: 1, color: 'black' }}>
-                    {page}
-                  </Button>
-                </Link>
-              )
-            ))}
-          </Box>
+      {pages.map((page) => {
+        if (page === "Home") {
+          return (
+            <Link key={page} href="/" passHref>
+              <Button sx={{ mx: 1, color: 'black' }}>
+                {page}
+              </Button>
+            </Link>
+          );
+        } else if (page === "WhatsApp") {
+          return (
+            <Button key={page} sx={{ mx: 1, color: 'black' }} href='https://wa.link/pfwjp2'>
+              {page}
+            </Button>
+          );
+        } else {
+          const formattedPage = page.toLowerCase().replace(/ /g, '-'); // format page name to match ID
+          return (
+            <Link key={page} href={`#${formattedPage}`} passHref>
+              <Button sx={{ mx: 1, color: 'black' }}>
+                {page}
+              </Button>
+            </Link>
+          );
+        }
+      })}
+    </Box>
 
           <Tooltip title="Open settings">
             <IconButton onClick={handleToggleDrawer} sx={{ ml: 2, display: { xs: 'none', md: 'block' } }}>

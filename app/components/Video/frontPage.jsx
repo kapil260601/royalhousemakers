@@ -32,7 +32,7 @@ const FrontPage = () => {
   const textColor = '#ffff'; 
  
   return (
-    <div className='' style={{ position: 'relative', width: '100%', height: '100vh' }}>
+    <div id='/' className='' style={{ position: 'relative', width: '100%', height: '100vh' }}>
         <video autoPlay loop muted playsInline webkit-playsinline style={{ width: '100%', height: '100%', objectFit: 'cover' }}>
           <source src="./99.mp4" type="video/mp4" />
          
