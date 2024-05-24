@@ -5,10 +5,12 @@ import './index.css';
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
-// import SendSharpIcon from '@mui/icons-material/SendSharp';
+import SendSharpIcon from '@mui/icons-material/SendSharp';
 import AddCircleOutlineSharpIcon from '@mui/icons-material/AddCircleOutlineSharp';
 import HomeSharpIcon from '@mui/icons-material/HomeSharp';
 function Footer() {
+
+    
     return (   
         <>
         {/* <div className="css-12ji5ln css-1xo4n4x-separatorInView">
@@ -23,10 +25,12 @@ function Footer() {
                     <div className="row">
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="single-cta d-flex justify-content-start">
+                            <a className="Icons" href="#">
                             <HomeSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"188px"}} />
+                                </a>
                                 <div className="cta-text ms-5">
                                     <h4 className="text-start">Find us</h4>
-                                    <a className="Cursor" href="#"><p className="text-start" style={{color:"#AB8282", fontSize:"18px"}}>6 A Shivampuri colony,<br /> Bholaram Ustad Marg,<br /> Indore, 452001</p> </a>
+                                    <a className="Icons" href="https://wa.link/pfwjp2"><p className="text-start" style={{color:"#AB8282", fontSize:"18px"}}>6 A Shivampuri colony,<br /> Bholaram Ustad Marg,<br /> Indore, 452001</p> </a>
                                    
 
                                 </div>
@@ -34,19 +38,23 @@ function Footer() {
                         </div>
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="single-cta">
+                            <a className="Icons" href="tel:+9009700155">
                             <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%", marginBottom:"46px"}} />
+                            </a>
                                  <div className="cta-text ms-5">
                                     <h4 className="text-start">Call us</h4>
-                                    <a className="Cursor" href="#"><span style={{color:"#AB8282",fontSize:"18px"}} className="text-start">9009700155</span></a>
+                                    <a className="Icons" href="tel:+9009700155"><span style={{color:"#AB8282",fontSize:"18px"}} className="text-start">9009700155</span></a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 mt-2">
                             <div className="single-cta">
-                            <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
+                            <a className="Icons" href="mailto:kapil2601patel@gmail.com">
+                            <SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
+                            </a>
                                 <div className="cta-text ">
                                     <h4 className="text-start">Mail:</h4>
-                                    <a className="Cursor desi" href="#"><span style={{color:"#AB8282", fontSize:"18px"}} className="text-start">royalhousemakers@gmail.com</span></a>
+                                    <a className="Icons" href="mailto:royalhousemakers@gmail.com"><span style={{color:"#AB8282", fontSize:"18px"}} className="text-start">royalhousemakers@gmail.com</span></a>
                                 </div>
                             </div>
                         </div>
@@ -54,10 +62,10 @@ function Footer() {
                             <div className="footer-social-icon single-cta" style={{display:"flex", marginLeft:"40px"}}>
                             <AddCircleOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "0px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
                                 <span>Follow: </span>
-                                <a className="Icons" href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="https://www.facebook.com/profile.php?id=61558097433903"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                                 {/* <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
                                 {/* <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
-                                <a className="Icons" href="#">                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
+                                <a className="Icons" href="https://www.instagram.com/royalhousemakers/"><MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                             </div>
                         </div>
                     </div>
