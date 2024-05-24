@@ -86,7 +86,7 @@ function Footer() {
                             <div className="footer-widget">
                                 <div className="footer-widget-heading mt-4">
                                     <h3 className="text-center">Useful Links</h3>
-                                </div>
+                                </div>     
                                 
                                 <ul className="color_footer desii">
                                 <li style={{color:"#AB8282"}}><a href="#">Home</a></li>
@@ -97,7 +97,7 @@ function Footer() {
                                     <li style={{color:"#AB8282"}}><a href="#">Expert Team</a></li>
                                 </ul>
                                
-                            </div>
+                            </div> 
                         </div>
                         <div className= "col-md-6 col-lg-4">
                             <div className="footer-widget">
