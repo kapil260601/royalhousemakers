@@ -67,7 +67,7 @@ function Footer() {
                             <div className="footer-social-icon single-cta" style={{display:"flex", marginLeft:"10px"}}>
                             <AddCircleOutlineSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "30px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
                                 {/* <span>Follow: </span> */}
-                                <h3 className="text-start" style={{fontFamily:"lato",fontWeight:"400", color:"white",marginTop:"1px"}}>Follow:</h3>
+                                <h3 className="text-start customdist" style={{fontFamily:"lato",fontWeight:"400", color:"white",marginTop:"1px"}}>Follow:</h3>
 
                                 <a className="Icons" href="https://www.facebook.com/profile.php?id=61558097433903"><FacebookSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                                 {/* <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
