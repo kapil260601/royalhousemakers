@@ -276,25 +276,26 @@
     margin: 0 0 0.5em 0;
     border: 1px solid #ccc;
     padding: 6px 10px;
-    color: #555;
+    color: white;
     font-size: 1em;
   }
   .my-form textarea {
     border: 1px solid #ccc;
     padding: 6px 10px;
     width: 100%;
-    color: #555;
+    color: white;
   }
   .my-form small {
     color: #4f6fad;
     margin: 0 0 0 0.5em;
   }
   .map-design{
-    background-color: #f7f7f7;
+    background-color: #191C24;
     padding: 10px;
     /* width: 470px; */
-    height: 465px;
+    height: 600px;
     border-radius: 5px;
+    padding-bottom: 50px;
   }
   
   /* @media only screen and (max-width: 780px) {
@@ -347,17 +348,20 @@
   padding: 19px;
   float: left;
   display: block;
+  font-weight: 400;
   /* border-radius: 30px 0px 0px 30px; */
-  background: #ECF0F3;
+  background: #2A3038;
   color: #fff;
+  font-family: roboto;
 }
 .info-title{
   text-align: left;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 400;
   margin-left: 35px;
   letter-spacing: 0.5px;
-  color:#F95911;
+  color:white;
+  font-family: roboto;
 }
 .info-sub-title{
   font-family: system-ui;
@@ -367,7 +371,7 @@
   margin-left: 35px;
   letter-spacing: 0.2px;
   line-height: 23px;
-  color: #555;
+  color: white;
 }
 .info-details {
   list-style: none;
@@ -387,7 +391,7 @@
   color: rgba(255, 255, 255, 0.864);
 }
 .info-details li a {
-  color: #555 !important;
+  color: white !important;
   text-decoration: none;
 }
 
@@ -425,15 +429,18 @@
   float: right;
   padding:26px 0px 23px 0px;
   /* border-radius: 0px 30px 30px 0px; */
-  background: #ecf0f3;
-  color: #F95911;
+  background: #2A3038;
+  color: white;
+  font-family: roboto;
+  font-weight: 400;
 }
 .form-title{
   text-align: left;
   margin-left: 18px !important;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 28px;
   letter-spacing: 0.5px;
+  font-family: roboto;
 }
 .form-fields{
   display: table;
@@ -444,10 +451,10 @@
 .form-fields textarea{
   border: none;
   outline:none;
-  background: none;
+  background-color: #2A3038;
   border-radius: 60px !important;
   font-size: 18px;
-  color:#555;
+  color:white;
   padding: 20px 20px 20px 9px;
   width:100%;
   font-family:'Roboto', sans-serif;
@@ -459,6 +466,7 @@
   font-family:'Roboto', sans-serif;
 }
 .form-group{
+  color: white !important;
   width: 46%;
   float: left;
   padding: 0px 30px;
@@ -467,8 +475,13 @@
   border: 3px dotted #6279a7;
 }
 
+.sectionColor{
+  background-color: #191C24;
+  /* margin: 0px 10px !important; */
+}
+
 .form-group:hover{
-  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  /* box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff; */
 
 }
 .form-fields .form-group:last-child {
@@ -488,7 +501,7 @@
   cursor: pointer;
   color:#fff;
   text-align: center;
-  background: #F95911;
+  background: #0090E7;
   transition: .5s;
 }
 .submit-button:hover{
@@ -504,10 +517,9 @@
     }
 
     .map-design{
-      background-color: #f7f7f7;
-     
+      background-color: #141721;
       /* width: 470px; */
-      height: 330px;
+      height: 500px !important;
       border-radius: 5px;
     }
     
@@ -545,7 +557,7 @@
     }
     .map-design iframe {
       width: 100%;
-      height: 300px; /* Adjust height as needed */
+      height: 450px; /* Adjust height as needed */
     }
     #section-wrapper {
       padding: 8px !important;

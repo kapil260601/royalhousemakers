@@ -1,17 +1,45 @@
 /* / front Page */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.layoutContent{
+  width: 100% !important;
+}
 .VideoHeader{
   font-size: 25px;
   padding: 10px;
   margin-bottom: 50px;
 }
 
+.headerTextEffect {
+  font-size: 3rem;
+  color: white; /* Assuming textColor is a CSS variable */
+  max-width: 100vw;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.paraTextEffect {
+  color: #EEEDEB;
+  font-size: 1.5rem;
+  max-width: 80vw;
+  font-family: "Lato";
+  font-weight: 400;
+}
+
+.contentArea{
+    position: absolute;
+    top: 55%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+
 .VideoPara{
   font-size: 12px;
 }
 
-.VideoContent {
- 
-}
 
 .frontHeader {
   font-family: "Noto Serif Devanagari", serif;
@@ -171,9 +199,32 @@
   .gapping {
     gap: 2px;
   }
+
+  .headerTextEffect {
+    font-size:2.9rem;
+    color: white; /* Assuming textColor is a CSS variable */
+    max-width: 100vw;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  
+  .paraTextEffect {
+    color: #EEEDEB;
+    font-size: 1.4rem;
+    max-width: 90vw;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+  .contentArea{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media (min-width: 768px) and (max-width: 1050px) {
   /* CSS styles for medium screens (e.g., tablets) */
   .background_color {
     padding: 1% 8% 0px 8%;
@@ -185,4 +236,25 @@
   .gapping {
     gap: 1px;
   }
+  .headerTextEffect {
+    font-size:2.9rem;
+    color: white; /* Assuming textColor is a CSS variable */
+    max-width: 100vw;
+    font-weight: 400;
+    font-family: "Roboto";
+  }
+  
+  .paraTextEffect {
+    color: #EEEDEB;
+    font-size: 1.4rem;
+    max-width: 90vw;
+    font-family: "Lato";
+    font-weight: 400;
+  }
+  .contentArea{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 }

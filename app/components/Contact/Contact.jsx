@@ -8,49 +8,38 @@ import SendSharpIcon from '@mui/icons-material/SendSharp';
 function Contact() { 
   return (
     <>
-    <div className='map-design m-3'>
-        <iframe  
-            title="Google Map" 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1989907590887!2d75.86164031067347!3d22.683635079326898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcf1f0b22763%3A0x789d74a3d5225d70!2s6%2C%20Shivampuri%20Colony%2C%20Indore%2C%20Madhya%20Pradesh%20452014!5e0!3m2!1sen!2sin!4v1709792132619!5m2!1sen!2sin"
-            width="100%"
-            height="445"
-            style={{borderRadius:"6px", fontSize:"20px" }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-         </div>
-  <div id='contact-us' className='row body__2 bg-opacity-100'>
-      <section className='col-12' id="section-wrapper">
+    
+  <div id='contact-us' className='row bg-opacity-100'>
+      <section className='col-12 sectionColor' id="section-wrapper">
         <div className="box-hint px-1">
-            <div className=" info-wrap">
-                <h2 className="info-title">Contact Information</h2>
+            <div className="info-wrap">
+                <h1 className="info-title text-white">Contact Information</h1>
                 <h3 className="info-sub-title">Fill up the form and our Team will<br/> get back to you within 24 hours</h3>
                 <ul className="info-details">
                     <li>
-                    <CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
-                        <span className='ms-1' style={{fontWeight:"700"}}>Mobile:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919009700155</a>
+                    <CallSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "10px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                        <span className='ms-1' style={{fontWeight:"400", fontFamily:"san-serif", color:"white"}}>Mobile:</span> <a className='ms-5' href="tel:+ 1235 2355 98">+919009700155</a>
                     </li>
                     <li >
-                    <MailOutlineSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "14px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                    <MailOutlineSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "14px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
 
-                        <span className='' style={{fontWeight:"700"}} >Email:</span> <a style={{marginLeft:"55px"}} className='mar' href="mailto:info@yoursite.com">royalhousemakers@gmail.com</a>
+                        <span className='' style={{fontWeight:"400", fontFamily:"san-serif", color:"white"}} >Email:</span> <a style={{marginLeft:"55px"}} className='mar' href="mailto:info@yoursite.com">royalhousemakers@gmail.com</a>
                     </li>
                     <li>
-                    <LanguageSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "12px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                    <LanguageSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "12px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
 
-                        <span className='ms-1' style={{fontWeight:"700"}}>Website:</span> <a style={{marginLeft:"60px"}} className='mar' href="#">https://royalhousemakers.com/</a>
+                        <span className='ms-1' style={{fontWeight:"400", fontFamily:"san-serif", color:"white"}}>Website:</span> <a style={{marginLeft:"60px"}} className='mar' href="#">https://royalhousemakers.com/</a>
                     </li>
                 </ul>
                 <ul className="social-icons d-flex justify-content-center ">
-                    <li className='List_1'><a href="#"><FacebookSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "5px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
-                    <li className='List_2'><a href="#"><SendSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "5px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
-                    <li className='List_2'><a href="#"><CallSharpIcon style={{backgroundColor: "#F95911",color: "#FFFFFF",marginRight: "5px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
+                    <li className='List_1'><a href="#"><FacebookSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "5px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
+                    <li className='List_2'><a href="#"><SendSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "5px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
+                    <li className='List_2'><a href="#"><CallSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "5px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a></li>
                 </ul>
             </div>
             <div className="form-wrap">
                 <form action="#" method="POST">
-                    <h2 className="form-title">Send us a message</h2>
+                    <h1 className="form-title">Send us a message</h1>
                     <div className="form-fields">
                         <div className="form-group">
                             <input type="text" className="fname input-field" placeholder="First Name"/>
@@ -74,6 +63,19 @@ function Contact() {
         </div>
     </section>
     </div>
+    <div id='hii' className='map-design pt-5 px-xl-5 px-sm-2'>
+        
+        <iframe  
+            title="Google Map" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1989907590887!2d75.86164031067347!3d22.683635079326898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcf1f0b22763%3A0x789d74a3d5225d70!2s6%2C%20Shivampuri%20Colony%2C%20Indore%2C%20Madhya%20Pradesh%20452014!5e0!3m2!1sen!2sin!4v1709792132619!5m2!1sen!2sin"
+            width="100%"
+            height="100%"
+            style={{borderRadius:"6px", fontSize:"20px" }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+         </div>
     </>
   );
 }

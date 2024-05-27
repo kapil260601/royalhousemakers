@@ -1,7 +1,8 @@
 
 .footer-section {
-  background: #151414;
+  background: #191C24;
   position: relative;
+
 }
 .single-cta i {
   color: #ff5e14;
@@ -114,7 +115,9 @@
   
 }
 .footer-widget ul li a {
-  color: #ab8282 !important;
+  color: white !important;
+  font-family: san-serif;
+  font-size: 18px;
 }
 .footer-widget ul li a:hover{
   color: #ff5e14 !important;
@@ -124,25 +127,50 @@
   text-transform: capitalize;
 }
 .subscribe-form {
-  position: relative;
+  /* position: relative;
   overflow: hidden;
+  padding-right: 20px; */
 }
 .subscribe-form input {
   width: 100%;
   padding: 14px 28px;
   background: #2E2E2E;
   border: 1px solid #2E2E2E;
-  color: #ab8282;
+  color: white;
 }
 .subscribe-form button {
-    position: absolute;
-    right: 0;
-    background: #ff5e14;
+    /* position: absolute; */
+    border-radius: 20px;
+    margin-top: 20px !important;
+    margin-left: 200px;
+    border: 1px solid white;
+    background: #F2AF07;
     padding: 13px 20px;
-    border: 1px solid #ff5e14;
-    top: 0;
+    font-weight: 900;
+    /* border: 1px solid black; */
+
   color:#fff ;
 
+}
+
+.subscribe-form button:hover {
+  /* position: absolute; */
+  font-weight: 900;
+  border-radius: 25px;
+  margin-top: 20px !important;
+  margin-left: 200px;
+  border: 1px solid white;
+  background: #F2AF07;
+  padding: 13px 20px;
+  /* border: 1px solid black; */
+
+background-color:#6BF178 ;
+
+}
+
+.col-lg-4 {
+  flex: 0 0 auto;
+  width: 32.333333%;
 }
 .subscribe-form button i {
   color: #fff;
@@ -162,7 +190,8 @@
   padding-left: 7px;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  /* color: #6BF178; */
+  color: #F2AF07;
 }
 .footer-menu li {
   /* display: inline-block; */
@@ -189,8 +218,9 @@
     color: white !important;
 }
 .color_footer{
-  margin-left: 85px !important;
+  margin-left: 65px !important;
 }
+
 .Cursor{
   cursor: text;
 }
@@ -301,9 +331,9 @@
     margin-top: 3px !important;
     margin-left: 43px !important;
   }
-  .color_footer {
-    /* margin-right: -46px !important; */
-}
+  .color_footer{
+    margin-left: 45px !important;
+  }
 .desii{
   margin-left:10% !important;
 }
@@ -339,6 +369,25 @@
   margin-left: 120px;
   background: #ff5e14;
 }
+.subscribe-form button {
+  /* position: absolute; */
+  
+  margin-top: 20px !important;
+  margin-left: 130px;
+  background: #F2AF07;
+  border-radius: 25px;
+  padding: 13px 20px;
+  /* border: 1px solid black; */
+
+color:#fff ;
+
+}
+.subscribe-form button:hover {
+
+background-color:#6BF178 ;
+
+}
+
 }
 
 @media only screen and (max-width: 1080px) {

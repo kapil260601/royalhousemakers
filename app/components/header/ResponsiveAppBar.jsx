@@ -15,7 +15,7 @@ import Drawer from '@mui/material/Drawer';
 
 import styles from './apk.css'; // Adjust CSS import based on your setup
 
-const pages = ['Home', 'About US', 'Contact Us', 'WhatsApp'];
+const pages = ['Home', 'Services', 'Contact Us',"About US", 'WhatsApp', "Career"];
 
 export default function ResponsiveAppBar() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -63,23 +63,23 @@ export default function ResponsiveAppBar() {
       {pages.map((page) => {
         if (page === "Home") {
           return (
-            <Link key={page} href="/" passHref>
-              <Button sx={{ mx: 1, color: 'black' }}>
+            <Link key={page} href="/" passHref >
+              <Button sx={{ mx: 1, color: 'black' }} className="hoverEffect">
                 {page}
               </Button>
             </Link>
           );
         } else if (page === "WhatsApp") {
           return (
-            <Button key={page} sx={{ mx: 1, color: 'black' }} href='https://wa.link/pfwjp2'>
+            <Button key={page} sx={{ mx: 1, color: 'black' }} href='https://wa.link/pfwjp2' className="hoverEffect">
               {page}
             </Button>
           );
         } else {
           const formattedPage = page.toLowerCase().replace(/ /g, '-'); // format page name to match ID
           return (
-            <Link key={page} href={`#${formattedPage}`} passHref>
-              <Button sx={{ mx: 1, color: 'black' }}>
+            <Link key={page} href={`#${formattedPage}`} passHref >
+              <Button sx={{ mx: 1, color: 'black' }} className="hoverEffect">
                 {page}
               </Button>
             </Link>
@@ -113,7 +113,7 @@ export default function ResponsiveAppBar() {
               </Box>
               {pages.map((page) => (
                 page === "WhatsApp" ? (
-                  <Button key={page} sx={{ mx: 1, color: 'black'}} href='https://wa.link/pfwjp2'>
+                  <Button key={page} sx={{ mx: 1, color: 'black'}} href='https://wa.link/pfwjp2' className="hoverEffect">
                     {page}
                   </Button>
                 ) : (
