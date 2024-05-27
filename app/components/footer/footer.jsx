@@ -50,21 +50,25 @@ function Footer() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 mt-xm-2 mt-xl-3">
+                        <div className="col-md-6 col-lg-3 mt-xm-2 mt-xl-1">
                             <div className="single-cta">
                             <a className="Icons" href="mailto:kapil2601patel@gmail.com">
                             <SendSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
                             </a>
                                 <div className="cta-text ms-2">
-                                    <h4 className="text-start">Mail:</h4>
+                                 <h3 className="text-start" style={{fontFamily:"lato",fontWeight:"400", color:"white",marginTop:"1px"}}>Mail:</h3>
+
+                                    {/* <h4 className="text-start">Mail:</h4> */}
                                     <a className="Icons" href="mailto:royalhousemakers@gmail.com"><span style={{color:"white", fontSize:"18px", fontFamily:"san-serif"}} className="text-start">royalhousemakers@gmail.com</span></a>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6 col-lg-3 mt-2">
+                        <div className="col-md-6 col-lg-3 mt-3">
                             <div className="footer-social-icon single-cta" style={{display:"flex", marginLeft:"10px"}}>
                             <AddCircleOutlineSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "30px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
-                                <span>Follow: </span>
+                                {/* <span>Follow: </span> */}
+                                <h3 className="text-start" style={{fontFamily:"lato",fontWeight:"400", color:"white",marginTop:"1px"}}>Follow:</h3>
+
                                 <a className="Icons" href="https://www.facebook.com/profile.php?id=61558097433903"><FacebookSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a>
                                 {/* <a className="Icons" href="#">                    <CallSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
                                 {/* <a className="Icons" href="#"><SendSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} /></a> */}
