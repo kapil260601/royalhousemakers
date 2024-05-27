@@ -51,8 +51,8 @@ function Footer() {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 mt-xm-2 mt-xl-1">
-                            <div className="single-cta">
-                            <a className="Icons" href="mailto:kapil2601patel@gmail.com">
+                            <div className="single-cta">   
+                            <a className="Icons" href=" mailto:kapil2601patel@gmail.com">
                             <SendSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "53px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%",marginBottom:"46px"}} />
                             </a>
                                 <div className="cta-text ms-2">
