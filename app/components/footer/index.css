@@ -327,6 +327,9 @@ background-color:#6BF178 ;
   .footer-social-icon span {
     padding-left: 7px;
   }
+  .customdist{
+    margin-left: 30px !important;
+  }
   .footer-social-icon a {
     margin-top: 3px !important;
     margin-left: 43px !important;
