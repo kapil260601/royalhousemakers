@@ -10,6 +10,18 @@
   .carousel-caption {
     bottom: 270px;
   }
+
+  .hoverEffect:hover{
+  background-color: whitesmoke !important;
+  color: black;
+
+}
+
+.hoverEffect:focus{
+  background-color: hsla(153, 66%, 17%, 1) !important;
+  color: white;
+  font-weight: 700;
+}
   
   .carousel-caption h5 {
     font-size: 45px;
