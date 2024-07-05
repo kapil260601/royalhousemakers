@@ -26,9 +26,9 @@ function Contact() {
                         <span className='' style={{fontWeight:"400", fontFamily:"san-serif", color:"white"}} >Email:</span> <a style={{marginLeft:"55px"}} className='mar' href="mailto:info@yoursite.com">royalhousemakers@gmail.com</a>
                     </li>
                     <li>
-                    <LanguageSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "12px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
+                    <LanguageSharpIcon style={{backgroundColor: "#F2AF07",color: "#FFFFFF",marginRight: "8px", width:"40px", height:"37px", padding:"6px",borderRadius:"50%"}} />
 
-                        <span className='ms-1' style={{fontWeight:"400", fontFamily:"san-serif", color:"white"}}>Website:</span> <a style={{marginLeft:"60px"}} className='mar' href="#">https://royalhousemakers.com/</a>
+                        <span className='ms-1' style={{fontWeight:"400", fontFamily:"san-serif", color:"white"}}>Website:</span> <a style={{marginLeft:"50px"}} className='mar' href="#">https://royalhousemakers.com/</a>
                     </li>
                 </ul>
                 <ul className="social-icons d-flex justify-content-center ">
@@ -38,6 +38,7 @@ function Contact() {
                 </ul>
             </div>
             <div className="form-wrap">
+                
                 <form action="#" method="POST">
                     <h1 className="form-title">Send us a message</h1>
                     <div className="form-fields">
@@ -67,7 +68,7 @@ function Contact() {
         
         <iframe  
             title="Google Map" 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.1989907590887!2d75.86164031067347!3d22.683635079326898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcf1f0b22763%3A0x789d74a3d5225d70!2s6%2C%20Shivampuri%20Colony%2C%20Indore%2C%20Madhya%20Pradesh%20452014!5e0!3m2!1sen!2sin!4v1709792132619!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3681.2033647703797!2d75.8641111!3d22.6834722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjLCsDQxJzAwLjUiTiA3NcKwNTEnNTAuOCJF!5e0!3m2!1sen!2sin!4v1720087040914!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{borderRadius:"6px", fontSize:"20px" }}
