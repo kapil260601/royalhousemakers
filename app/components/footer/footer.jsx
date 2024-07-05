@@ -32,7 +32,7 @@ function Footer() {
                                 </a>
                                 <div className="cta-text ms-5">
                                     <h2 className="text-start" style={{fontFamily:"lato",fontWeight:"400", color:"white"}}>Find us</h2>
-                                    <a className="Icons" href="https://wa.link/pfwjp2"><p className="text-start" style={{color:"white", fontSize:"18px",fontFamily:"san-serif"}}>6A, Shivampuri Colony Bholaram,<br/> Ustad Marg, Bhawarkua, Madhya Pradesh Indore, 452001</p> </a>
+                                    <a className="Icons" href="https://maps.app.goo.gl/VcGcRYSonT8Kw4n26"><p className="text-start" style={{color:"white", fontSize:"18px",fontFamily:"san-serif"}}>6A, Bholaram Ustad Marg,<br/> Shivampuri Colony, Indore, Madhya Pradesh 452014, India</p> </a>
                                    
 
                                 </div>
@@ -47,6 +47,7 @@ function Footer() {
                                  <h3 className="text-start" style={{fontFamily:"lato",fontWeight:"400", color:"white",marginTop:"1px"}}>Call us</h3>
                                     {/* <h4 className="text-start">Call us</h4> */}
                                     <a className="Icons" href="tel:+9009700155"><span style={{color:"white",fontSize:"19px",fontFamily:"san-serif"}} className="text-start">9009700155</span></a>
+                                    <a className="Icons" href="tel:+9009700155"><span style={{color:"white",fontSize:"19px",fontFamily:"san-serif"}} className="text-start"> , 6264363271</span></a>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +60,7 @@ function Footer() {
                                  <h3 className="text-start" style={{fontFamily:"lato",fontWeight:"400", color:"white",marginTop:"1px"}}>Mail:</h3>
 
                                     {/* <h4 className="text-start">Mail:</h4> */}
-                                    <a className="Icons" href="mailto:royalhousemakers@gmail.com"><span style={{color:"white", fontSize:"18px", fontFamily:"san-serif"}} className="text-start">royalhousemakers@gmail.com</span></a>
+                                    <a className="Icons" href="mailto:royalhousemakers@gmail.com"><span style={{color:"white", fontSize:"18px", fontFamily:"san-serif"}} className="text-start">royalhousemakers155@gmail.com</span></a>
                                 </div>
                             </div>
                         </div>

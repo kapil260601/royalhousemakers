@@ -3,20 +3,21 @@ import "./Service.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+import NestedModal from './ServiceModal';
 // import { Link } from 'react-router-dom';
 
 function Service() {
 
   { /* Floor Plan */ }
-  const images = ['./Floor/A.jpg', './Floor/B.jpg', './Floor/C.jpg', './Floor/D.jpg', './Floor/E.jpg', './Floor/F.jpg'];
+  const images = ['./Floor/G.jpg','./Floor/A.jpg', './Floor/B.jpg', './Floor/C.jpg', './Floor/D.jpg', './Floor/E.jpg', './Floor/F.jpg', './Floor/H.jpg', './Floor/I.jpg'];
 
 
 
   { /*  3D ELEVATION DESIGN */ }
-  const images1 = ['./3D ELEVATION/C.jpg', './3D ELEVATION/B.jpg',  './3D ELEVATION/D.jpg', './3D ELEVATION/E.jpg', './3D ELEVATION/F.jpg','./3D ELEVATION/A.jpg'];
+  const images1 = ['./3D ELEVATION/C.jpg', './3D ELEVATION/B.jpg',  './3D ELEVATION/D.jpg', './3D ELEVATION/E.jpg', './3D ELEVATION/F.jpg','./3D ELEVATION/A.jpg','./3D ELEVATION/G.jpg', './3D ELEVATION/H.jpg',  './3D ELEVATION/I.jpg', './3D ELEVATION/J.jpg', './3D ELEVATION/K.jpg','./3D ELEVATION/L.jpg','./3D ELEVATION/M.jpg','./3D ELEVATION/N.jpg'];
 
   { /*  2D Elevation */ }
-  const images2 = [ './Floor/C.jpg','./Floor/A.jpg', './Floor/B.jpg',  './Floor/D.jpg', './Floor/E.jpg', './Floor/F.jpg'];
+  const images2 = [ './2D ELEVATION/A.jpg', './2D ELEVATION/B.jpg',  './2D ELEVATION/C.jpg', './2D ELEVATION/D.jpg', './2D ELEVATION/E.jpg','./2D ELEVATION/F.jpg', './2D ELEVATION/G.jpg',  './2D ELEVATION/H.jpg', './2D ELEVATION/I.jpg', './2D ELEVATION/J.jpg','./2D ELEVATION/K.jpg', './2D ELEVATION/L.jpg',  './2D ELEVATION/M.jpg', './2D ELEVATION/N.jpg', './2D ELEVATION/O.jpg','./2D ELEVATION/P.jpg'];
 
   { /*  STRUCTURE DRAWING */ }
   const images3 = ['./Structure/E.png','./Structure/F.png', './Structure/J.png', './Structure/B.png', './Structure/C.png', './Structure/D.png',   './Structure/G.png', './Structure/H.png', './Structure/I.png', './Structure/A.png', './Structure/K.png'];
@@ -40,7 +41,7 @@ function Service() {
       </div>
       <div className='mt-4'>
         <div className=''>
-          <img className='design img-fluid' src="./1-1-1-1.jpg" alt="Project" />
+               <img className='design img-fluid' src="./1-1-1-1.jpg" alt="Project" />
         </div>
         
         <div className="row pt-5 mt-1 ">
@@ -49,7 +50,7 @@ function Service() {
             <Carousel className='hasing' interval={null}>
             {images.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}} />
               </Carousel.Item>
             ))}
           </Carousel>
@@ -145,7 +146,7 @@ function Service() {
             <Carousel className='RightPadding'  interval={null}>
             {images1.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}} />
               </Carousel.Item>
             ))}
           </Carousel>
@@ -157,7 +158,7 @@ function Service() {
             <Carousel className='hasing'  interval={null}>
             {images2.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}} />
               </Carousel.Item>
             ))}
           </Carousel>
@@ -281,7 +282,7 @@ function Service() {
             <Carousel className='RightPadding'  interval={null}>
             {images3.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}}/>
               </Carousel.Item>
             ))}
           </Carousel>
@@ -293,7 +294,7 @@ function Service() {
             <Carousel className='hasing'  interval={null}>
             {images4.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImggg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImggg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}}/>
               </Carousel.Item>
             ))}
           </Carousel>
@@ -327,7 +328,8 @@ function Service() {
               src="./Slider.mp4" 
               width="95%"
               height="450"
-              style={{ borderRadius: "50px", border: "5px solid rgb(242, 175, 7)" }}
+              style={{borderRadius:"15px"}}
+              // style={{ borderRadius: "50px", border: "5px solid rgb(242, 175, 7)" }}
               allowFullScreen="" 
               loading="lazy" 
               autoPlay 
@@ -415,55 +417,22 @@ function Service() {
             </div>
           </div>
           <div id='n' className="col-lg-6 d-flex justify-content-center mt-4" >
-            {/* <div id="demo6" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-
-              <div className="carousel-inner primary">
-                {images6.map((image, index) => (
-                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border-nav" />
-                  </div>
-                ))}
-              </div>
-
-              <button className="carousel-control-prev" type="button" data-bs-target="#demo6" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#demo6" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </button>
-            </div> */}
+            
             <Carousel className='px-2'  interval={null}>
             {images6.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}} />
               </Carousel.Item>
             ))}
           </Carousel>
           </div>
           { /*  Landscape */}
           <div id='o' className="col-lg-6 d-flex justify-content-center mt-3" >
-            {/* <div id="demo5" className="slider carousel slide" data-bs-ride="false" data-interval="false" >
-
-
-              <div className="carousel-inner primary">
-                {images5.map((image, index) => (
-                  <div key={index} className={`images-slider carousel-item ${index === 0 ? 'active' : ''}`}>
-                    <img src={image} alt={`Image ${index}`} className="cover  CoverImg border-nav" />
-                  </div>
-                ))}
-              </div>
-
-              <button className="carousel-control-prev" type="button" data-bs-target="#demo5" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
-              </button>
-              <button className="carousel-control-next" type="button" data-bs-target="#demo5" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
-              </button>
-            </div> */}
+            
             <Carousel className='RightPadding'  interval={null}>
             {images5.map((image, index) => (
               <Carousel.Item key={index}>
-                <img className="d-block border-nav cover  CoverImg" src={image} alt={`Slide ${index}`} />
+                <img className="d-block  cover  CoverImg" src={image} alt={`Slide ${index}`} style={{borderRadius:"15px"}} />
               </Carousel.Item>
               
             ))}
@@ -533,8 +502,11 @@ function Service() {
           </div>
         </div>
       </div>
+      <div>
+        <NestedModal/>
+      </div>
     </div>
-
+    
   )
 }
 
