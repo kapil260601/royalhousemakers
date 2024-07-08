@@ -3,7 +3,7 @@ import "./Service.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import NestedModal from './ServiceModal';
+// import NestedModal from './ServiceModal';
 // import { Link } from 'react-router-dom';
 
 function Service() {
