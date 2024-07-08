@@ -503,7 +503,7 @@ function Service() {
         </div>
       </div>
       <div>
-        <NestedModal/>
+        {/* <NestedModal/> */}
       </div>
     </div>
     
