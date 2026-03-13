@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@bradgarropy/next-seo": "^1.2.0",
+    "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
@@ -20,6 +21,7 @@
     "bootstrap": "^5.3.3",
     "font-awesome": "^4.7.0",
     "next": "^14.2.1",
+    "nodemailer": "^8.0.2",
     "pure-react-carousel": "^1.30.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.2",

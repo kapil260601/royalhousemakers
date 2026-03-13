@@ -765,3 +765,30 @@
       margin-left: 20px !important;
   }
   }
+
+.contact-status {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.contact-status.success {
+  color: #0f5132;
+  background: rgba(15, 81, 50, 0.15);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.35rem;
+}
+
+.contact-status.error {
+  color: #842029;
+  background: rgba(184, 0, 0, 0.12);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.35rem;
+}
+
+.contact-status.pending {
+  color: #0c5460;
+  background: rgba(11, 83, 92, 0.15);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.35rem;
+}

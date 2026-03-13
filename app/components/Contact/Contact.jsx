@@ -1,11 +1,50 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Contact.css";
 import FacebookSharpIcon from '@mui/icons-material/FacebookSharp';
 import CallSharpIcon from '@mui/icons-material/CallSharp';
 import MailOutlineSharpIcon from '@mui/icons-material/MailOutlineSharp';
 import LanguageSharpIcon from '@mui/icons-material/LanguageSharp';
 import SendSharpIcon from '@mui/icons-material/SendSharp';
+import emailjs from '@emailjs/browser';
 function Contact() { 
+    const [formState, setFormState] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phone: '',
+        message: '',
+    });
+
+    const [status, setStatus] = useState({ type: '', message: '' });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormState((prev) => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatus({ type: 'pending', message: 'Sending message...' });
+
+        try {
+            await emailjs.send(
+                'service_wkgg10j',
+                'template_w8sm5iw',
+                {
+                    from_name: `${formState.firstName} ${formState.lastName}`,
+                    from_email: formState.email,
+                    phone: formState.phone,
+                    message: formState.message,
+                },
+                'xBZRTmbCbg6CdZdvW'
+            );
+            setStatus({ type: 'success', message: 'Message sent! We will get back to you soon.' });
+            setFormState({ firstName: '', lastName: '', email: '', phone: '', message: '' });
+        } catch (error) {
+            console.error('Email send error', error);
+            setStatus({ type: 'error', message: 'Something went wrong. Please try again later.' });
+        }
+    };
   return (
     <>
     
@@ -39,26 +78,68 @@ function Contact() {
             </div>
             <div className="form-wrap">
                 
-                <form action="#" method="POST">
+                                <form onSubmit={handleSubmit}>
                     <h1 className="form-title">Send us a message</h1>
                     <div className="form-fields">
                         <div className="form-group">
-                            <input type="text" className="fname input-field" placeholder="First Name"/>
+                                                        <input
+                                                            type="text"
+                                                            name="firstName"
+                                                            value={formState.firstName}
+                                                            onChange={handleChange}
+                                                            className="fname input-field"
+                                                            placeholder="First Name"
+                                                            required
+                                                        />
                         </div>
                         <div className="form-group">
-                            <input type="text" className="lname input-field" placeholder="Last Name"/>
+                                                        <input
+                                                            type="text"
+                                                            name="lastName"
+                                                            value={formState.lastName}
+                                                            onChange={handleChange}
+                                                            className="lname input-field"
+                                                            placeholder="Last Name"
+                                                            required
+                                                        />
                         </div>
                         <div className="form-group">
-                            <input type="email" className="email input-field" placeholder="Email"/>
+                                                        <input
+                                                            type="email"
+                                                            name="email"
+                                                            value={formState.email}
+                                                            onChange={handleChange}
+                                                            className="email input-field"
+                                                            placeholder="Email"
+                                                            required
+                                                        />
                         </div>
                         <div className="form-group">
-                            <input type="number" className="phone input-field" placeholder="Mobile"/>
+                                                        <input
+                                                            type="tel"
+                                                            name="phone"
+                                                            value={formState.phone}
+                                                            onChange={handleChange}
+                                                            className="phone input-field"
+                                                            placeholder="Mobile"
+                                                            required
+                                                        />
                         </div>
                         <div className="form-group">
-                            <textarea name="message" id="" placeholder="Message" className=''></textarea>
+                                                        <textarea
+                                                            name="message"
+                                                            value={formState.message}
+                                                            onChange={handleChange}
+                                                            placeholder="Message"
+                                                            className=""
+                                                            required
+                                                        />
                         </div>
                     </div>
                     <input type="submit" value="Send Message" className="submit-button"/>
+                                        {status.message && (
+                                            <p className={`contact-status ${status.type}`}>{status.message}</p>
+                                        )}
                 </form>
             </div>
         </div>
