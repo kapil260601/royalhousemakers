@@ -139,8 +139,16 @@ export default function ResponsiveAppBar() {
                   >
                     {page}
                   </Button>
+                ) : page === 'Home' ? (
+                  <Link key={page} href="/">
+                    <Button
+                      sx={{ display: 'flex', mx: 1, justifyContent: 'flex-start', color: 'black' }}
+                    >
+                      {page}
+                    </Button>
+                  </Link>
                 ) : (
-                  <Link key={page} href={'/' + page.toLowerCase()}>
+                  <Link key={page} href={`#${page.toLowerCase().replace(/ /g, '-')}`}>
                     <Button
                       sx={{ display: 'flex', mx: 1, justifyContent: 'flex-start', color: 'black' }}
                     >
